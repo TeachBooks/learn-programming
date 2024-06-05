@@ -5,6 +5,4 @@ parts:
   - caption: Contents
     chapters:
     - file: environments.md
-      sections:
-      - file: some_content/text_and_code.ipynb
     - file: references.md
