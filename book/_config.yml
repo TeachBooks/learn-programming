@@ -9,7 +9,7 @@ only_build_toc_files: true
 
 html:
   favicon : "figures/favicon.ico"
-  baseurl :  "https://github.com/TeachBooks/learn-programming" #Replace this with your own URL
+  baseurl :  "https://teachbooks.github.io/learn-programming/"
   home_page_in_navbar       : true
 
 sphinx:
@@ -20,7 +20,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://teachbooks.github.io/learn-programming/" #add your own repo URL here
+      repository_url: "https://github.com/TeachBooks/learn-programming"
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
