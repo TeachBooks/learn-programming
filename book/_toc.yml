@@ -4,4 +4,5 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
+    - file: environments.md
     - file: references.md
