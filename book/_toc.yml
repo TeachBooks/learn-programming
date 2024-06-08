@@ -61,13 +61,34 @@ parts:
       sections:
       - file: year2/python_topics/classes
         title: Classes
+# START REMOVE-FROM-PUBLISH
+      - file: programming/python_topics/classes_solution
+        title: Classes Solution
+# END REMOVE-FROM-PUBLISH
       - file: year2/python_topics/visualization
         title: Advanced Visualization
       - file: year2/sympy/sympy.ipynb
 # START REMOVE-FROM-PUBLISH
       - file: year2/python_topics/modules
         title: Modules
-      # TO BE ADDED LATER: NUMPY ADVANCED, PANDAS, PYTHONIC, ETC.
+      - file: programming/python_topics/modules_solution
+        title: Modules Solution
+# END REMOVE-FROM-PUBLISH
+
+# THIS SECTION WAS DRAFTED BUT NEVER RELEASED FROM OLD BRANCH
+    - file: programming/code/overview
+      title: Computers & Code
+      sections:
+      - file: programming/code/numpy_0
+        title: Numpy
+        sections:
+        - file: programming/code/numpy_1
+          title: Using `ndarray`
+        - file: programming/code/numpy_2
+          title: Doing math
+# END PART FROM OLD BRANCH
+
+# TO BE ADDED LATER: NUMPY ADVANCED, PANDAS, PYTHONIC, ETC.
     # REMOVED OCTOBER 2023 TO REORGGANIZE IN "Python Topics"
     # - file: year2/communication/overview
     #   title: Communication
