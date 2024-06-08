@@ -37,12 +37,10 @@ parts:
           title: Getting Started
         - file: year2/programs/git/cli/remote
           title: Remote Repositories
-# START REMOVE-FROM-PUBLISH
         - file: year2/programs/git/cli/branch_merge
         - file: year2/programs/git/cli/merge_conflicts
         - file: year2/programs/git/cli/git_the_rest
           title: The Rest
-# END REMOVE-FROM-PUBLISH
       - file: year2/programs/debugging/overview
         title: Debugging and Testing
         sections:
@@ -50,32 +48,23 @@ parts:
           title: Error Types
         - file: year2/programs/debugging/traceback
           title: Traceback
-# START REMOVE-FROM-PUBLISH
         - file: year2/programs/debugging/errors_raise_handle
         - file: year2/programs/debugging/assertions
         - file: year2/programs/debugging/logging
         - file: year2/programs/debugging/exercises
-# END REMOVE-FROM-PUBLISH
-    # Python Topics ADDED OCTOBER 2023 (REVISE FOR 2024)
     - file: year2/python_topics/overview
       sections:
       - file: year2/python_topics/classes
         title: Classes
-# START REMOVE-FROM-PUBLISH
       - file: programming/python_topics/classes_solution
         title: Classes Solution
-# END REMOVE-FROM-PUBLISH
       - file: year2/python_topics/visualization
         title: Advanced Visualization
       - file: year2/sympy/sympy.ipynb
-# START REMOVE-FROM-PUBLISH
       - file: year2/python_topics/modules
         title: Modules
       - file: programming/python_topics/modules_solution
         title: Modules Solution
-# END REMOVE-FROM-PUBLISH
-
-# THIS SECTION WAS DRAFTED BUT NEVER RELEASED FROM OLD BRANCH
     - file: programming/code/overview
       title: Computers & Code
       sections:
@@ -86,7 +75,8 @@ parts:
           title: Using `ndarray`
         - file: programming/code/numpy_2
           title: Doing math
-# END PART FROM OLD BRANCH
+        - file: programming/code/numpy_3
+          title: Optional Exercises
 
 # TO BE ADDED LATER: NUMPY ADVANCED, PANDAS, PYTHONIC, ETC.
     # REMOVED OCTOBER 2023 TO REORGGANIZE IN "Python Topics"
