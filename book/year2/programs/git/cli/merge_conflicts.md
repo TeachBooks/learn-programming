@@ -1,5 +1,13 @@
 # Merge conflicts
 
+```{note}
+This page was not shared with MUDE students in 2023-2024 (year 2).
+
+It may have been a new page, or a modified page from year 1.
+
+There may be pages in year 1 and year 2 that are nearly identical, or have significant modifications. Modifications usually were to reformat the notebooks to fit in a jupyter book framework better.
+```
+
 Merge conflicts arise when people on separate branches modify the same
 parts of one (or multiple) files. Since git does not know how to handle
 that and whose changes to consider, it prompts the user to decide

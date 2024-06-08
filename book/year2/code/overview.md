@@ -1,5 +1,19 @@
 # Computers & Code 
 
+```{note}
+The entire Code chapter was never shared in MUDE in 2023-2024.
+
+There are some files in this directory that are not in the `toc` but contain a few notes and outlines.
+```
+
+```{note}
+This page was not shared with MUDE students in 2023-2024 (year 2).
+
+It may have been a new page, or a modified page from year 1.
+
+There may be pages in year 1 and year 2 that are nearly identical, or have significant modifications. Modifications usually were to reformat the notebooks to fit in a jupyter book framework better.
+```
+
 text. Matlab also high level and multi-purpose like Python.
 
 Things that will definitely go here:
