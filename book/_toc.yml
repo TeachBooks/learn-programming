@@ -6,3 +6,111 @@ parts:
     chapters:
     - file: environments.md
     - file: references.md
+  - caption: Programming
+    numbered: 3
+    chapters:
+    - file: year2/overview
+      title: Overview
+    - file: year2/golden_rules.ipynb
+      title: The Golden Rules
+    - file: year2/programs/overview
+      title: Programs
+      sections:
+      - file: year2/programs/git/version_control
+      - file: year2/programs/git/gui/overview
+        title: git and GitLab (GUI)
+        sections:
+        - file: year2/programs/git/gui/cloning
+          title: Cloning
+        - file: year2/programs/git/gui/commits_local
+          title: Local Commits
+        - file: year2/programs/git/gui/commits_remote
+          title: Remote Commits
+        - file: year2/programs/git/gui/fetch_pull
+          title: Fetch and Pull
+        - file: year2/programs/git/gui/pushing_problems
+          title: Pushing Problems
+      - file: year2/programs/git/cli/overview
+        title: git and GitLab (CLI)
+        sections:
+        - file: year2/programs/git/cli/getting_started
+          title: Getting Started
+        - file: year2/programs/git/cli/remote
+          title: Remote Repositories
+# START REMOVE-FROM-PUBLISH
+        - file: year2/programs/git/cli/branch_merge
+        - file: year2/programs/git/cli/merge_conflicts
+        - file: year2/programs/git/cli/git_the_rest
+          title: The Rest
+# END REMOVE-FROM-PUBLISH
+      - file: year2/programs/debugging/overview
+        title: Debugging and Testing
+        sections:
+        - file: year2/programs/debugging/errors
+          title: Error Types
+        - file: year2/programs/debugging/traceback
+          title: Traceback
+# START REMOVE-FROM-PUBLISH
+        - file: year2/programs/debugging/errors_raise_handle
+        - file: year2/programs/debugging/assertions
+        - file: year2/programs/debugging/logging
+        - file: year2/programs/debugging/exercises
+# END REMOVE-FROM-PUBLISH
+    # Python Topics ADDED OCTOBER 2023 (REVISE FOR 2024)
+    - file: year2/python_topics/overview
+      sections:
+      - file: year2/python_topics/classes
+        title: Classes
+      - file: year2/python_topics/visualization
+        title: Advanced Visualization
+      - file: year2/sympy/sympy.ipynb
+# START REMOVE-FROM-PUBLISH
+      - file: year2/python_topics/modules
+        title: Modules
+      # TO BE ADDED LATER: NUMPY ADVANCED, PANDAS, PYTHONIC, ETC.
+    # REMOVED OCTOBER 2023 TO REORGGANIZE IN "Python Topics"
+    # - file: year2/communication/overview
+    #   title: Communication
+    #   sections:
+    #   - file: year2/communication/visualization
+    # - file: year2/code/overview
+    #   title: Computers & Code
+    #   sections:
+    #   - file: year2/code/packages
+    #   - file: year2/code/environments
+# END REMOVE-FROM-PUBLISH
+
+  - caption: Coding (Last Year)
+    chapters:
+    - file: year1/coding/overview.md
+    - file: year1/coding/1-1/1-overview.md
+      sections:
+      - file: year1/coding/1-1/1-1-student.ipynb
+      - file: year1/coding/1-1/1-1-solution.ipynb
+      - file: year1/coding/1-1/1-2-student.ipynb
+      - file: year1/coding/1-1/1-2-solution.ipynb
+    - file: year1/coding/1-4/1-overview.md
+      sections:
+      - file: year1/coding/1-4/1-2-oop-student
+      - file: year1/coding/1-4/1-2-oop-solution
+      - file: year1/coding/1-4/1-3-modules-student
+      - file: year1/coding/1-4/1-3-modules-solution
+    - file: year1/coding/1-6/1-overview.md
+      sections:
+      - file: year1/coding/1-6/1_1_Introduction_student.ipynb
+      - file: year1/coding/1-6/1_2_Points_student.ipynb
+      - file: year1/coding/1-6/1_3_Lines_student.ipynb
+      - file: year1/coding/1-6/1_6_Lines_teacher.ipynb
+      - file: year1/coding/1-6/1_4_Polygons_student.ipynb
+      - file: year1/coding/1-6/1_7_Polygons_teacher.ipynb
+      - file: year1/coding/1-6/1_5_Rasters_student.ipynb
+      - file: year1/coding/1-6/1_8_Rasters_teacher.ipynb
+    - file: year1/coding/2-2/1-overview.md
+      sections:
+      - file: year1/coding/2-2/1-software.md
+      - file: year1/coding/2-2/1-part-1.md
+        sections:
+        - file: year1/coding/2-2/1_1.ipynb
+        - file: year1/coding/2-2/1_2.ipynb
+      - file: year1/coding/2-2/1-part-2.md
+      - file: year1/coding/2-2/1-part-3.md
