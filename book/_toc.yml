@@ -30,9 +30,10 @@ parts:
         title: Integrated Development Environments
         sections:
         - file: software/install/ide/vsc
-          title: Visual Studio Code
-        - files: software/install/ide/extensions
-          title: VS Code Extensions
+          title: Visual Studio 
+          sections:
+          - file: software/install/ide/extensions
+            title: VS Code Extensions
   - caption: Programming
     numbered: 3
     chapters:
