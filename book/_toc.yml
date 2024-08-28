@@ -4,8 +4,26 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: environments.md
     - file: references.md
+    - file: environments/overview
+      title: Computing Environments
+      sections:
+      - file: environments/conda
+        title: conda (Anaconda/Miniconda)
+      - file: environments/conda_old
+        title: conda OLD
+    - file: software/install/overview
+      title: Software Installation
+      sections:
+      - file: software/install/python
+        title: Python
+        sections:
+        - file: software/install/miniconda
+          title: Miniconda
+        - file: software/install/anaconda
+          title: Anaconda
+        - file: software/install/python_direct
+          title: Direct Installation
   - caption: Programming
     numbered: 3
     chapters:
