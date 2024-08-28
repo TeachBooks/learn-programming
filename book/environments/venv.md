@@ -66,31 +66,38 @@ Next we will install Python by opening the downloaded file, but pay careful atte
 	- uncheck "Use admin privelages..."
 	- choose custom install
 
-<figure>
-    <img src="../python_install_01.jpg" alt="installation page" style="width:70%">
-    <!-- <figcaption>Add SSH Key to GitLab Account.</figcaption> -->
-</figure>
+```{figure} figures/venv_python_01.jpg
+---
+width: 60%
+name: venv_python_01
+---
+Installation page.
+```
 
 - Optional Features page
 	- uncheck "td/tk and IDLE" and "py launcher"
 	- Ensure that "for all users" remains *un*checked
 
-<figure>
-    <img src="../python_install_02.jpg" alt="optional features page" style="width:70%">
-    <!-- <figcaption>Add SSH Key to GitLab Account.</figcaption> -->
-</figure>
-
+```{figure} figures/venv_python_02.jpg
+---
+width: 60%
+name: venv_python_02
+---
+Optional features page
+```
 - Advanced options page
 	- leave everything *un*checked
 	- Set install location as defined above, in `python_releases` in a sub-directory `311` to denote the version number
 		- should look like `C:\...\code\python_releases\311`
 		- you may or may not have `code` in subdirectories, which is OK--- _as long as its not in a cloud syncing directory_
 
-<figure>
-    <img src="../python_install_03.jpg" alt="advanced features page" style="width:70%">
-    <!-- <figcaption>Add SSH Key to GitLab Account.</figcaption> -->
-</figure>
-
+```{figure} figures/venv_python_03.jpg
+---
+width: 60%
+name: venv_python_03
+---
+Advanced options page.
+```
 - Ignore the last page "Setup Successful"
 
 ### Checking Installation

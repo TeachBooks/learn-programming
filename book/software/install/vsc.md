@@ -13,10 +13,9 @@ Although Jupyter Lab and Jupyter Notebook are also IDE's, they don't provide as 
 ## Installation
 
 The primary steps are:
-- download the installer from [code.visualstudio.com/download](https://code.visualstudio.com/download){:target="_blank"}
+- download the installer from [code.visualstudio.com/download](https://code.visualstudio.com/download)
 - get familiar with the interface
 - install a few useful Extensions
-- sign in to your GitHub account
 - use it!
 
 ### Extensions
