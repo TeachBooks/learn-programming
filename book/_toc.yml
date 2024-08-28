@@ -12,6 +12,8 @@ parts:
         title: conda (Anaconda/Miniconda)
       - file: environments/conda_old
         title: conda OLD
+      - file: environments/venv
+        title: venv (Python)
     - file: software/install/overview
       title: Software Installation
       sections:
@@ -24,6 +26,11 @@ parts:
           title: Anaconda
         - file: software/install/python_direct
           title: Direct Installation
+      - file: software/install/ide
+        title: Integrated Development Environments
+        sections:
+        - file: software/install/ide/vsc
+          title: Visual Studio Code
   - caption: Programming
     numbered: 3
     chapters:
