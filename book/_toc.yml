@@ -31,6 +31,9 @@ parts:
         sections:
         - file: software/install/ide/vsc
           title: Visual Studio Code
+          sections:
+          - files: software/install/ide/extensions
+            title: VS Code Extensions
   - caption: Programming
     numbered: 3
     chapters:
