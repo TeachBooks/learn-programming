@@ -48,15 +48,15 @@ screenshots....(3x startomg wotj `emvoronments-...`
 
 ```{figure} figures/environment_var_search.png
 ---
-height: 200px
+height: 50%
 name: environment_var_search
 ---
-
+Search for environment variable settings; note the description _"for your account"_! (Windows only)
 ```
 
 ```{figure} figures/environment_var_miniconda.png
 ---
-height: 200px
+width: 50%
 name: environment_var_miniconda
 ---
 How to add Miniconda location to Path variable (Windows only).
@@ -64,7 +64,7 @@ How to add Miniconda location to Path variable (Windows only).
 
 ```{figure} figures/environment_var_miniconda_not_system.png
 ---
-height: 200px
+height: 50%
 name: environment_var_miniconda_not_system
 ---
 Don't set an environment variable for the _system_, only your account (Windows only)!
@@ -78,7 +78,7 @@ now type `exit` to leave the command prompt. from now on we will use the Anacond
 
 ```{figure} figures/anaconda_prompt_open_windows.png
 ---
-height: 200px
+height: 50%
 name: anaconda_prompt_open_windows
 ---
 Open Anaconda Prompt from the Windows menu (Windows only).
