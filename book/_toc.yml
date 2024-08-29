@@ -14,27 +14,32 @@ parts:
         title: conda OLD
       - file: environments/venv
         title: venv (Python)
-    - file: software/install/overview
+    - file: install
       title: Software Installation
       sections:
-      - file: software/install/python
+      - file: install/python
         title: Python
         sections:
-        - file: software/install/miniconda
+        - file: install/python/miniconda
           title: Miniconda
-        - file: software/install/anaconda
+        - file: install/python/anaconda
           title: Anaconda
-        - file: software/install/python_direct
+        - file: install/python/direct
           title: Direct Installation
-      - file: software/install/ide
+      - file: install/ide
         title: Integrated Development Environments
         sections:
-        - file: software/install/ide/vsc
+        - file: install/ide/vsc
           title: Visual Studio 
           sections:
-          - file: software/install/ide/extensions
+          - file: install/ide/vsc/extensions
             title: VS Code Extensions
-  - caption: Programming
+    - file: workflows
+      title: Software Workflows
+      sections:
+      - file: workflows/jupyter-lab
+        title: Jupyter Lab
+  - caption: MUDE Year 2
     numbered: 3
     chapters:
     - file: year2/overview
