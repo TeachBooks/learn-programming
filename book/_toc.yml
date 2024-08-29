@@ -4,9 +4,42 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: environments.md
     - file: references.md
-  - caption: Programming
+    - file: environments/overview
+      title: Computing Environments
+      sections:
+      - file: environments/conda
+        title: conda (Anaconda/Miniconda)
+      - file: environments/conda_old
+        title: conda OLD
+      - file: environments/venv
+        title: venv (Python)
+    - file: install
+      title: Software Installation
+      sections:
+      - file: install/python
+        title: Python
+        sections:
+        - file: install/python/miniconda
+          title: Miniconda
+        - file: install/python/anaconda
+          title: Anaconda
+        - file: install/python/direct
+          title: Direct Installation
+      - file: install/ide
+        title: Integrated Development Environments
+        sections:
+        - file: install/ide/vsc
+          title: Visual Studio 
+          sections:
+          - file: install/ide/vsc/extensions
+            title: VS Code Extensions
+    - file: workflows
+      title: Software Workflows
+      sections:
+      - file: workflows/jupyter-lab
+        title: Jupyter Lab
+  - caption: MUDE Year 2
     numbered: 3
     chapters:
     - file: year2/overview
