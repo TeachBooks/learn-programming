@@ -12,7 +12,7 @@ Visit the [Python page for virtual environments](https://docs.python.org/3.11/li
 
 _Reread that, because it is important!_ It means that a `venv` is simply a set of files that you will set up, add to, and change frequently during the course of a project. Perhaps many of you have still been using your `mude` environment from Q1: since the pace of the most common Python libraries. However, other packages change their code base frequently, leading to problems with our code. Remember `pyvinecopulib` in MUDE Week 1.8 this year? That package often causes problems because it depends on a number of libraries in the C programming language, which are very hardware-dependent (but also computationally efficient) - when using projects where package compatibility is known to be sensitive, it is much more reliable to plan using a new environment from the start, and `venv` is the quickest way to do that.
 
-### Establish a working directory
+## Establish a working directory
 
 Before we begin, let's get our working directory set up properly. You are not required to follow these suggestions exactly, but the relative paths between your working directory and the Python directory will be used throughout the code examples.
 
