@@ -17,6 +17,15 @@ parts:
     - file: install
       title: Software Installation
       sections:
+      - file: install/common
+        title: Common Topics
+        sections:
+        - file: install/common/hidden
+          title: Hidden Files
+        - file: install/common/cli
+          title: Command Line Interface (CLI)
+        - file: install/common/env_vars_windows
+          title: Environment Variables (Windows)
       - file: install/python
         title: Python
         sections:
@@ -33,7 +42,9 @@ parts:
           title: Visual Studio 
           sections:
           - file: install/ide/vsc/extensions
-            title: VS Code Extensions
+            title: Extensions
+          - file: install/ide/vsc/git
+            title: Git Integration
     - file: workflows
       title: Software Workflows
       sections:

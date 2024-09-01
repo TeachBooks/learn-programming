@@ -1,16 +1,16 @@
 (vsc)=
 # Visual Studio Code (VSC)
 
-Visual Studio Code (VSC) is and _Integrated Development Environment_ (IDE): a software that helps users program more effectively, as it combines different workflows in one place. For our purpose VS Code is very useful because allows us to do things in one place, for example:
+Visual Studio Code (VSC) is and _Integrated Development Environment_ (IDE): a software that helps users program more effectively, as it combines different workflows in one place. For our purpose VSC is very useful because allows us to do things in one place, for example:
 - manage files and sub-directories within our working directory
 - execute Python code (and any other programming language!), including Jupyter notebooks
 - manage Python environments
 - use Git and version control
 - many other things, especially with Extensions!
 
-Although Jupyter Lab and Jupyter Notebook are also IDE's, they don't provide as many features as VS Code, or maintenance and improvement of tools is slower because the Jupyter development community is smaller. The availability of extensions in VS Code, in particular, is exceptional. 
+Although Jupyter Lab and Jupyter Notebook are also IDE's, they don't provide as many features as VSC, or maintenance and improvement of tools is slower because the Jupyter development community is smaller. The availability of extensions in VSC, in particular, is exceptional. 
 
-## Installation
+## VSC Installation
 
 The primary steps are:
 - download the installer from [code.visualstudio.com/download](https://code.visualstudio.com/download)
@@ -19,24 +19,36 @@ The primary steps are:
 - install a few useful Extensions (see {ref}`overview page <extensions-vsc>`)
 - use it!
 
+## Adding Extensions
 
+Extensions are managed in the left-side toolbar of VSC (click the icon with 4 blocks). It is generally very intuitive to search through the avalable extensions and install them. A general overview with descriptions of commonly used extensions and tips for managing is provided on the `{ref}Extensions page <extensions-vsc>`. If your primary goal is to use VSC with Python and Jupyter software (e.g., Jupyter Lab, Jupter Notebook or Jupyter Book), we recommend you start with two extensions:
+- Python (Extension ID: `ms-python.python`)
+- Jupyter (Extension ID: `ms-toolsai.jupyter`)
 
-### Using Git and Version Control
+```{tip}
+Note that if you are using the Jupyter extension it is good to include `ipykernel` in your Python environments (but VSC will add this automatically for you if you don't - isn't VSC great?!).
+```
 
-_Note that you can still use GitHub Desktop in parallel with VS Code without issue. The choice comes down to personal preference; although the user interface is different, both tools manage Git and your remote repositories in a similarly._
+## A Useful Tip (Command Palette)
 
-We will use the HTTPS protocol for cloning repositories, since VS Code allows you to authenticate yourself by logging in to your GitHub account via the application (this avoids setting up SSH).
+VSC is very easy to customize, and you can spend hours optimizing it for your own personal use and projects. We recommend skipping this for now if you are just getting started. However, it is useful to know about the _Command Palette,_ which governs all functionality of VSC, and can be accessed with `CTRL+SHIFT+P`. _This is the single most important VSC command to remember._
 
-It is very easy to clone a repository and start working on a project:
-- Copy the HTTPS clone link from the online repository
-- Open a new window (File >>> New Window)
-- Under the "Start" menu, select "Clone Git Repository"
-- Paste the link, then choose the location where you would like to store the repository (hint: in your `.../HOS/` directory!)
+## Using a CLI (a VSC "Terminal")
 
-You should have already installed the extension GitHub Pull Requests, which will allow you to log in to GitHub. After this you will be able to push back to the remote repository (github.com) using the "Source Control" tab on the left of the application.
+VSC refers to a Command Line Interface (CLI) with the term "Terminal."
 
-### Activating a Python Environment
+You can open a new Terminal with the menu bar at the top. Once a Terminal is active you can open additional Terminal instances, chossing amongst the various CLI's available on your computer. It can be useful to have more than one CLI open at a time and keep them collected together with your project files!
 
-The easiest way to do this is to make sure you have the Python extension installed, then try to run the cells of a notebook. You will see that VS Code asks you to choose a Python kernel. You can choose a Python virtual environment (`venv`) if you have one, but you should also be able to see your `conda` environments as well.
+To have a specific CLI open by default when you open a Terminal in VSC, open the Command Palette (`CTRL+SHIFT+P`), select the option `Terminal: Select Defaulty Profile` and select your preferred CLI from the list.
 
-Remember that if you need to install more packages, you should open a terminal and use `pip`, which you can do directly from VS Code.
+## Activating a Python Environment
+
+The easiest way to do this is to make sure you have the Python extension installed, then try to run the cells of a notebook or execute a `*.py` file (look for the play button icon once you have either of these file types open). Upon clicking the run button you will see that VSC asks you to choose a Python kernel. You can choose a Python virtual environment (`venv`) if you have one, but you should also be able to see your `conda` environments as well.
+
+Remember that if you need to install more packages, you should open a CLI (this is called a "terminal" in VSC) and use `pip`, which you can do directly from VSC.
+
+## Using Git and Version Control (Optional)
+
+Git (a version control software) is very nicely integrated within VSC. If you are working on code and text-based projects, the use of Git is strongly encouraged (although if you are a student, we recommend you wait until it is introduced in class before proceding further).
+
+Additional information is provided on the {ref}`Git page for VSC <vsc-git>`.
