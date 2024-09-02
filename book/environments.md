@@ -1,7 +1,9 @@
 (environments)=
-# Computing Environments and Environment Managers
+# Environments and Environment Managers
 
-This is the landing page for environments.
+```{note}
+This is a brief introduction to _computing environments,_ with a focus on the Python programming language for scientific computing applications.
+```
 
 ## What is an environment?
 
