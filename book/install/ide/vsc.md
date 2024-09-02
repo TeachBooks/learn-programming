@@ -31,7 +31,7 @@ Note that if you are using the Jupyter extension it is good to include `ipykerne
 
 ## A Useful Tip (Command Palette)
 
-VSC is very easy to customize, and you can spend hours optimizing it for your own personal use and projects. We recommend skipping this for now if you are just getting started. However, it is useful to know about the _Command Palette,_ which governs all functionality of VSC, and can be accessed with `CTRL+SHIFT+P`. _This is the single most important VSC command to remember._
+VSC is very easy to customize, and you can spend hours optimizing it for your own personal use and projects. We recommend skipping this for now if you are just getting started. However, it is useful to know about the _Command Palette,_ which governs all functionality of VSC, and can be accessed with `CTRL+SHIFT+P` for Windows or `SHIFT+CMD+P` for Mac. _This is the single most important VSC command to remember._
 
 ## Using a CLI (a VSC "Terminal")
 
@@ -39,7 +39,7 @@ VSC refers to a Command Line Interface (CLI) with the term "Terminal."
 
 You can open a new Terminal with the menu bar at the top. Once a Terminal is active you can open additional Terminal instances, chossing amongst the various CLI's available on your computer. It can be useful to have more than one CLI open at a time and keep them collected together with your project files!
 
-To have a specific CLI open by default when you open a Terminal in VSC, open the Command Palette (`CTRL+SHIFT+P`), select the option `Terminal: Select Defaulty Profile` and select your preferred CLI from the list.
+To have a specific CLI open by default when you open a Terminal in VSC, open the Command Palette (`CTRL+SHIFT+P`, `SHIFT+CMD+P`), select the option `Terminal: Select Defaulty Profile` and select your preferred CLI from the list.
 
 ## Activating a Python Environment
 
