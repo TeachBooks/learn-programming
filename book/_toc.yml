@@ -5,7 +5,9 @@ parts:
   - caption: Contents
     chapters:
     - file: references.md
-    - file: environments/overview
+    - file: computers
+      title: Computers
+    - file: environments
       title: Computing Environments
       sections:
       - file: environments/conda
