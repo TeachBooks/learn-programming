@@ -19,7 +19,7 @@ A computer can be broken down into a number of components, for example: hardware
 
 ```{figure} computers/figures/typical.svg
 ---
-width: 80%
+width: 95%
 name: computer_typical
 ---
 Essential components of a typical computer. In particular, we are interested in the Application Software.
