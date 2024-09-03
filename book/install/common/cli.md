@@ -45,8 +45,36 @@ General overview for different styles (posix, unix, etc) as well as how that tra
 
 ## Basic CLI Skills
 
-```{warning}
-Work in progress!
-```
+% Isabel has tested all the Mac commands on Macbook Pro M1 - 3 September
+
+|  | Mac   | Windows      |
+|--|----------|-------------|
+|    Present Working Directory  | pwd      | pwd |
+| List content of the present working directory | ls        |  ls   |
+| Change: Change Directory | cd {directory} (`cd /path/to/directory`) | cd {directory} (`cd /path/to/directory`)  |
+|   Touch: Creates a new file or updates the timestamp  | touch {filename} (`touch my_file.txt`) | touch {filename} (`touch my_file.txt`)|
+| Create new directory  | mkdir {directory_name} (`mkdir my_folder`)  | mkdir {directory_name} (`mkdir my_folder`)   |
+| Copy: Copies file or directory | cp {source} {target} (`cp my_file.txt my_folder`)| cp {source}  { target} (`cp my_file.txt my_folder`)|
+| Moves a file or directory| mv {source} {target} (`mv my_file.txt my_folder`)| mv {source} {target} (`mv my_file.txt my_folder`)|
+| Removes: Removes file |  rm {filename} (`rm my_file.txt`) |  rm {filename} (`rm my_file.txt`)|
+| Removes: Removes directory|  rmdir {directory_name} (`rmdir my_folder`) |  rmdir {directory_name}  (`rmdir my_folder`) |
+| Clear up terminal | clear (`clear`) | clear (`clear`) |
+
+%below some simple CL to run python from terminal. Perhaps this can go to the python section
+**Python**
+|  | Mac   | Windows      |
+|--|----------|-------------|
+|  Varifying and version  | `python3 --version` | `py -3 --version` |
+| Opening Python shell | `python3`    |  `py3`   |
+| run python files | python3 {py_file_name} `python3 filename.py` | py3 {py_file_name} `py3 filename.py`|
+|Open python file in VS Code| code {py_file_name} `code filename.py` | code {py_file_name} `code filename.py` |
+
+Add the code command for opening pythonfile in VS Code. Open pallete `Cmd +Shft + p`  (`<Shell Command: Install 'code' command in PATH> `)
 
 `exit` leaves the CLI
+
+Here is a link for a more detailed command line cheat sheets:
+
+[Windows command line cheat sheet](https://gist.github.com/hofmannsven/8392477) 
+
+[Mac Ternminal command line cheat sheet](https://github.com/0nn0/terminal-mac-cheatsheet)
