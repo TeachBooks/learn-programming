@@ -1,9 +1,7 @@
 (computers)=
 # Computers
 
-```{note}
 This is a brief overview of _computers,_ with a focus on illustrating the role of application software and introducing the concept of _computing environments_ (explained elsewhere in this book).
-```
 
 **What is a computer?**
 
