@@ -19,17 +19,7 @@ The primary steps are:
 - install a few useful Extensions (see {ref}`overview page <extensions-vsc>`)
 - use it!
 
-## Adding Extensions
-
-Extensions are managed in the left-side toolbar of VSC (click the icon with 4 blocks). It is generally very intuitive to search through the avalable extensions and install them. A general overview with descriptions of commonly used extensions and tips for managing is provided on the {ref}`Extensions page <extensions-vsc>`. If your primary goal is to use VSC with Python and Jupyter software (e.g., Jupyter Lab, Jupter Notebook or Jupyter Book), we recommend you start with two extensions:
-- Python (Extension ID: `ms-python.python`)
-- Jupyter (Extension ID: `ms-toolsai.jupyter`)
-
-```{tip}
-Note that if you are using the Jupyter extension it is good to include `ipykernel` in your Python environments (but VSC will add this automatically for you if you don't - isn't VSC great?!).
-```
-
-## A Useful Tip (Command Palette)
+## Command Palette
 
 VSC is very easy to customize, and you can spend hours optimizing it for your own personal use and projects. We recommend skipping this for now if you are just getting started. However, it is useful to know about the _Command Palette,_ which governs all functionality of VSC, and can be accessed with `CTRL+SHIFT+P` for Windows or `SHIFT+CMD+P` for Mac. _This is the single most important VSC command to remember._
 
@@ -46,9 +36,3 @@ To have a specific CLI open by default when you open a Terminal in VSC, open the
 The easiest way to do this is to make sure you have the Python extension installed, then try to run the cells of a notebook or execute a `*.py` file (look for the play button icon once you have either of these file types open). Upon clicking the run button you will see that VSC asks you to choose a Python kernel. You can choose a Python virtual environment (`venv`) if you have one, but you should also be able to see your `conda` environments as well.
 
 Remember that if you need to install more packages, you should open a CLI (this is called a "terminal" in VSC) and use `pip`, which you can do directly from VSC.
-
-## Using Git and Version Control (Optional)
-
-Git (a version control software) is very nicely integrated within VSC. If you are working on code and text-based projects, the use of Git is strongly encouraged (although if you are a student, we recommend you wait until it is introduced in class before proceding further).
-
-Additional information is provided on the {ref}`Git page for VSC <vsc-git>`.
