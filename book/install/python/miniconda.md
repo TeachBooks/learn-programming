@@ -15,7 +15,8 @@ As described on the [Miniconda website installer page](https://docs.anaconda.com
 
 % Robert tested Aug-24 Windows 10; this worked very quick and easily
 
-````{tab} Windows
+`````{tab-set}
+````{tab-item} Windows
 
 As described on the Miniconda site, _these three commands quickly and quietly download the latest 64-bit Windows installer, rename it to a shorter file name, silently install, and then delete the installer._
 
@@ -24,18 +25,6 @@ curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -o
 start /wait "" miniconda.exe /S
 del miniconda.exe
 ```
-````
-% Isabel tested Sep-2 Macbook pro M1; this worked very quick and easily
-````{tab} Mac
-As described on the Miniconda site, _these four commands download the latest M1 version of the MacOS installer, rename it to a shorter file name, silently install, and then delete the installer._
-
-```
-mkdir -p ~/miniconda3
-curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-rm ~/miniconda3/miniconda.sh
-```
-````
 
 ```{admonition} Tip for Windows Users
 :class: tip
@@ -49,6 +38,22 @@ name: miniconda_install
 ---
 Command line installation of Miniconda (Windows).
 ```
+
+````
+````{tab-item} Mac
+
+% Isabel tested Sep-2 Macbook pro M1; this worked very quick and easily
+As described on the Miniconda site, _these four commands download the latest M1 version of the MacOS installer, rename it to a shorter file name, silently install, and then delete the installer._
+
+```
+mkdir -p ~/miniconda3
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+```
+````
+`````
+
 
 ## Check Whether Installation Was Successful
 
