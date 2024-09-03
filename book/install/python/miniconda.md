@@ -122,6 +122,8 @@ conda activate
 ````
 `````
 
+You can now use conda and all the packages within it!
+
 % can add gif showing all these commands
 
 
