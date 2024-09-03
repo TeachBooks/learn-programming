@@ -5,6 +5,16 @@ By default some of the folders (directories) and files are hidden on your comput
 
 ## Change Settings via a GUI
 
+### Mac OS
+
+This is very easy to do on a Mac, simply use the following keyboard combination (i.e., holding three buttons simultaneously):
+
+```
+Command + Shift + .
+```
+
+If this doesn't work, try a Google search for "Finding hidden files on a Mac" and look for an explanation that includes a computer and OS similar to your personal setup.
+
 ### Windows OS
 
 Settings for hidden files and folders can be found directly via the Windows File Explorer. First find the "options" or "settings" configuration window (sometimes pressing the `ALT` button toggles the menubar on and off): 
@@ -25,12 +35,6 @@ width: 60%
 name: hidden_windows_2
 ---
 Show hidden files and folders for your directory (Windows).
-```
-
-### Mac OS
-
-```{warning}
-Work in progress!
 ```
 
 ## Use the Command Line Interface (CLI)

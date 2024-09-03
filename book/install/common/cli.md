@@ -31,23 +31,37 @@ You will hear many people and see softawre that use the terms above interachanga
 
 ## Examples of CLI's
 
-```{warning}
-Work in progress!
+There are many types of modern CLI's that you may come across, here is a short list to give you an idea of their names and a few observations about each one:
 
 General overview for different styles (posix, unix, etc) as well as how that translates to different OS's. Then an overview (with tabs?) of the different OS's and how you can get the different styles on each.
 ```
 
-- unix
-- bash
-- command prompt (Windows)
-- PowerShell (Windows)
-- Anaconda Prompt (command prompt and PowerShell versions)
+- **Terminal**: the standard CLI on a Mac OS
+- **Command Prompt**: one of several CLI's commonly used on Windows OS
+- **PowerShell**: one of several CLI's commonly used on Windows OS. Notorious for having a syntax and set of commands that is different from most other CLI's (we recommend you avoid this one, if possible)
+- **Anaconda Prompt**: a custom CLI that builds on other CLI's. For example, on Windows OS you can find a Command Prompt and PowerShell versions, depending on your preference
+- **Bash**: widely used on Linux systems
+- **Git Bash**: a CLI that comes with the Git software distribution that is the easiest way to get Unix style commands on a Windows OS
 
-## Basic CLI Skills
+
+
+```{tip}
+Many CLI's use _UNIX style syntax and commands._ UNIX is a family of operating systems that were developed in the 1970's and influenced many other computer OS's.
+
+Mac and Linux OS's use UNIX style commands, but unfortunately the CLI's'that are available by default on Windows OS do not. This can make it more difficult to use the CLI for Windows users, especially because the vast majority of online documentation and open source CLI tools available today use UNIX-like syntax and commands.
+
+It is easy to work around this issue, however, for example:
+- it is easy to find the equivalent commands between UNIX and Windows CLI's _once you are aware that there is a difference) (see examples below)
+- it is possible to get UNIX style CLI's on Windows OS (e.g., Git Bash)
+```
+
+## Basic CLI Skills: Cheat Sheets
+
+The tables below will give you commonly used commands on Mac and Windows OS's
 
 % Isabel has tested all the Mac commands on Macbook Pro M1 - 3 September
 
-|  | Mac   | Windows      |
+|  | Mac (UNIX Style commands)  | Windows (Command Prompt)     |
 |--|----------|-------------|
 |    Present Working Directory  | `pwd`      | `pwd` |
 | List content of the present working directory | `ls`        |  `ls`   |
@@ -62,19 +76,24 @@ General overview for different styles (posix, unix, etc) as well as how that tra
 
 %below some simple CL to run python from terminal. Perhaps this can go to the python section
 **Python**
-|  | Mac   | Windows      |
+|  | Mac (UNIX Style commands)  | Windows (Command Prompt)     |
 |--|----------|-------------|
 |  Varifying and version  | `python3 --version` | `py -3 --version` |
 | Opening Python shell | `python3`    |  `py3`   |
 | run python files | python3 {py_file_name} `python3 filename.py` | py3 {py_file_name} `py3 filename.py`|
 |Open python file in VS Code| code {py_file_name} `code filename.py` | code {py_file_name} `code filename.py` |
 
-Add the code command for opening pythonfile in VS Code. Open pallete `Cmd +Shft + p`  (`<Shell Command: Install 'code' command in PATH> `)
+```{tip}
+Depending on your computer settings, you may need to use `python` or `python3` to call the interpreter. Usually one or the other words by default on Mac, as it comes pre-installed with Python. For Windows OS, we recommend you use the Anaconda Command Prompt, as it was installed along with Python, which should be findable as long as you added `conda.exe` to your `PATH` environment variable.
+```
 
-`exit` leaves the CLI
+<!-- Add the code command for opening pythonfile in VS Code. Open pallete `Cmd +Shft + p`  (`<Shell Command: Install 'code' command in PATH> `) -->
 
+<!-- `exit` leaves the CLI -->
 
-Here is a link for a more detailed command line cheat sheets:
+## Links to other Cheat Sheets
+
+Here are links for more detailed command line cheat sheets:
 
 [Windows command line cheat sheet](https://gist.github.com/hofmannsven/8392477) 
 
