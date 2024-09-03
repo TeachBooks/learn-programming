@@ -25,7 +25,7 @@ start /wait "" miniconda.exe /S
 del miniconda.exe
 ```
 ````
-
+% Isabel tested Sep-2 Macbook pro M1; this worked very quick and easily
 ````{tab} Mac
 As described on the Miniconda site, _these four commands download the latest M1 version of the MacOS installer, rename it to a shorter file name, silently install, and then delete the installer._
 
@@ -103,12 +103,21 @@ Open Anaconda Prompt from the Windows menu.
 ```
 ````
 ````{tab} Mac OS
-```{warning}
-Work in progress!
+
+For Mac users this is all made a bit easier. You can just use your Terminal to interact with Anaconda.
+
+You can open Terminal by navigating to Applications > Utilities > Terminal or by searching for "Terminal" using Spotlight `Cmd + Space`. 
+
+Or you can use your terminal in VS Code.  
+
+To activate your Conda environment(by default your base environment) use the following command:
+```none
+conda activate
 ```
+
 ````
 
-
+% can add gif showing all these commands
 
 
 
