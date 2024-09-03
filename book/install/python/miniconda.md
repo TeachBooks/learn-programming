@@ -110,7 +110,7 @@ name: anaconda_prompt_open_windows
 Open Anaconda Prompt from the Windows menu.
 ```
 ````
-````{tab} Mac OS
+````{tab-item} Mac OS
 
 For Mac users this is all made a bit easier. You can just use your Terminal to interact with Anaconda.
 
