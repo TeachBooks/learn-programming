@@ -1,6 +1,8 @@
 (vsc-git)=
 # Using Git with VS Code
 
+Git (a version control software) is very nicely integrated within VSC. If you are working on code and text-based projects, the use of Git is strongly encouraged (although if you are a student, we recommend you wait until it is introduced in class before proceeding further).
+
 Git and VS Code (VSC) work together very well, regardless of how you use Git. For example, you can:
 - use the "Source Control" GUI interface provided by VS Code (the branch diagram in the left toolbar)
 - use any number of extensions that extend the default VS Code features
