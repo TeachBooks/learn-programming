@@ -21,7 +21,7 @@ The primary steps are:
 
 ## Adding Extensions
 
-Extensions are managed in the left-side toolbar of VSC (click the icon with 4 blocks). It is generally very intuitive to search through the avalable extensions and install them. A general overview with descriptions of commonly used extensions and tips for managing is provided on the `{ref}Extensions page <extensions-vsc>`. If your primary goal is to use VSC with Python and Jupyter software (e.g., Jupyter Lab, Jupter Notebook or Jupyter Book), we recommend you start with two extensions:
+Extensions are managed in the left-side toolbar of VSC (click the icon with 4 blocks). It is generally very intuitive to search through the avalable extensions and install them. A general overview with descriptions of commonly used extensions and tips for managing is provided on the {ref}`Extensions page <extensions-vsc>`. If your primary goal is to use VSC with Python and Jupyter software (e.g., Jupyter Lab, Jupter Notebook or Jupyter Book), we recommend you start with two extensions:
 - Python (Extension ID: `ms-python.python`)
 - Jupyter (Extension ID: `ms-toolsai.jupyter`)
 
