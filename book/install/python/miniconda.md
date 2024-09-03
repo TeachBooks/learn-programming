@@ -1,7 +1,7 @@
 (install-miniconda)=
 # Miniconda Installation
 
-Miniconda is smaller version of Anaconda that is very quick and easy to install. Like Anaoncda, it contains the essential tools to start working with Python: `conda`, Python and a few related packages. You can read more about it on the [Miniconda website](https://docs.anaconda.com/miniconda/).
+Miniconda is smaller version of Anaconda that is very quick and easy to install. Like Anaconda, it contains the essential tools to start working with Python: `conda`, Python and a few related packages. You can read more about it on the [Miniconda website](https://docs.anaconda.com/miniconda/).
 
 The screenshots in these instructions were made using the Command Prompt on a Windows Operating System (screenshots are from Windows 10). Where needed, instructions and notes for Mac users are provided in addition.
 
