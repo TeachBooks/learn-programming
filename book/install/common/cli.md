@@ -29,12 +29,9 @@ Now that these have been defined, you might realize that most of your life you h
 
 You will hear many people and see softawre that use the terms above interachangably (for example, VS Code uses the term "terminal" for all CLI's), but in reality usage of the term _terminal_ or _console_ today generally refers to a _shell_ with a _CLI._ We recommend sticking to the term **command line interface (CLI)**, or simple the **command line** as this is platform independent and captures what we are physically doing with regards to the content in this book: entering and executing commands via a CLI.
 
-## Examples of CLI's
+## Examples of CLI
 
 There are many types of modern CLI's that you may come across, here is a short list to give you an idea of their names and a few observations about each one:
-
-General overview for different styles (posix, unix, etc) as well as how that translates to different OS's. Then an overview (with tabs?) of the different OS's and how you can get the different styles on each.
-```
 
 - **Terminal**: the standard CLI on a Mac OS
 - **Command Prompt**: one of several CLI's commonly used on Windows OS
