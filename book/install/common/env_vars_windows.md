@@ -22,14 +22,14 @@ Environment variables, highlighting the difference between those for the user an
 
 ## The `PATH` Variable
 
-The `PATH` variable is like an address book for your computer: it lists various folders (directories) where the computer should look when executing commands. Updating the `PATH` variable is often required when installing software that is to be used with a CLI. In addition, updating this variable is often the solution to the problem of tring to execute a command and getting a "not found" message in repsonse. For example, the following Windows Command Prompt illustrates what happens when (first) a command is executed that cannot be found by the CLI and (second) `conda` is called:
+The `PATH` variable is like an address book for your computer: it lists various folders (directories) where the computer should look when executing commands. Updating the `PATH` variable is often required when installing software that is to be used with a CLI. In addition, updating this variable is often the solution to the problem of trying to execute a command and getting a "not found" message in response. For example, the following Windows Command Prompt illustrates what happens when (first) a command is executed that cannot be found by the CLI and (second) `conda` is called:
 
 ```none
-C:\Users\rlanzafame>software_that_is_not_on_path --version
+C:\Users\YOUR_USERNAME>software_that_is_not_on_path --version
 'software_that_is_not_on_path' is not recognized as an internal or external command,
 operable program or batch file.
 
-C:\Users\rlanzafame>conda --version
+C:\Users\YOUR_USERNAME>conda --version
 conda 23.11.0
 ```
 
@@ -116,7 +116,7 @@ How to add a folder (directory) location to the `PATH` variable using the "New" 
 To check that your `PATH` variable was properly configured you should use a CLI to see whether your program of interest is now findable. For example, if you added the location of `conda.exe` to `PATH` you should now be able to execute `conda --version` (note the two dashes, `--`, not one, `-`!), which will return the following:
 
 ```none
-C:\Users\rlanzafame>conda --version
+C:\Users\YOUR_USERNAME>conda --version
 conda 23.11.0
 ```
 

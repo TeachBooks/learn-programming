@@ -1,7 +1,7 @@
 (hidden)=
 # Hidden Files
 
-By default some of the folders (directories) and files are hidden on your computer to protect you against making changes that causes problems. You will need to see some of these files and folders to properly set up and use the softare described in this book.
+By default some of the folders (directories) and files are hidden on your computer to protect you against making changes that causes problems. You will need to see some of these files and folders to properly set up and use the software described in this book.
 
 ## Change Settings via a GUI
 

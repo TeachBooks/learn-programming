@@ -6,7 +6,7 @@ Miniconda is smaller version of Anaconda that is very quick and easy to install.
 The screenshots in these instructions were made using the Command Prompt on a Windows Operating System (screenshots are from Windows 10). Where needed, instructions and notes for Mac users are provided in addition.
 
 ```{tip}
-Unless you have installed Anaconda or Miniconda recently (e.g., within the last 2 years), we recommend you completely remove older versions of these softawre distributions from your computer and start from scratch. While it is possible to upgrade them, in our experience it is usually faster and less problematic to simply reinstall.
+Unless you have installed Anaconda or Miniconda recently (e.g., within the last 2 years), we recommend you completely remove older versions of these software distributions from your computer and start from scratch. While it is possible to upgrade them, in our experience it is usually faster and less problematic to simply reinstall.
 ```
 
 ## Download and Installation
@@ -67,7 +67,7 @@ If you don't know how to do this, read the {ref}`environment variable instructio
 ````
 ````{tab-item} Mac
 
-% Isabel tested Sep-2 Macbook pro M1; this worked very quick and easily
+% Isabel tested Sep-2 MacBook pro M1; this worked very quick and easily
 
 As described on the Miniconda site, _these four commands download the latest M1 version of the MacOS installer, rename it to a shorter file name, silently install, and then delete the installer._ This can be done from the terminal.
 
@@ -90,7 +90,7 @@ rm ~/miniconda3/miniconda.sh
 The easiest way to check if everything worked properly is to make sure that the `conda` command line tool can be found and executed on your system, which can be done by opening the command prompt and typing `conda --version` (note the two dashes, `--`, not one, `-`!). Depending on your operating system and CLI, you should get the following:
 
 ```none
-C:\Users\rlanzafame>conda --version
+C:\Users\YOUR_USERNAME>conda --version
 conda 23.11.0
 ```
 

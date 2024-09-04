@@ -15,7 +15,7 @@ Now we will make sure you have an environment to get started. We'll just make su
 
 The following steps will create an Anaconda environment:
 
-1. Open the commmand line interface (see above)—you can also continue in the same session if it is still active
+1. Open the command line interface (see above)—you can also continue in the same session if it is still active
 2. Execute: `conda create -n myenv pip` (this may take several minutes)
 3. Activate: `conda activate myenv`
 4. Check: you should now see `myenv` displayed somewhere in the prompt between parenthesis, like this: `(myenv)`

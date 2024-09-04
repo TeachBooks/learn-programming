@@ -63,7 +63,7 @@ First you will have to download a specific version of Python:
 Next we will install Python by opening the downloaded file, but pay careful attention to the instructions. Each page of the installer is described here, along with a screenshot:
 
 - Installation page
-	- uncheck "Use admin privelages..."
+	- uncheck "Use admin privileges..."
 	- choose custom install
 
 ```{figure} figures/venv_python_01.jpg

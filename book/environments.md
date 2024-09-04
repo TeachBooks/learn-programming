@@ -11,7 +11,7 @@ Unfortunately, because computer hardware plays a role in determining compatibili
 
 If the concept of an _environment_ facilitates the running of code, an _environment manager_ facilitates the creation, modification, specification, etc, of an _environment_ itself.
 
-The purpose of environments and environment manageers is to allow an arbitrary software project to be used on an arbitrary computer, regardless of operating system (although one should note that some OS-specific software is required, for example the environment managaer itself). This is illustrated schematically in the following figure.
+The purpose of environments and environment managers is to allow an arbitrary software project to be used on an arbitrary computer, regardless of operating system (although one should note that some OS-specific software is required, for example the environment manager itself). This is illustrated schematically in the following figure.
 
 ```{figure} environments/figures/simple.svg
 ---
@@ -46,7 +46,7 @@ dependencies:
 
 ## Why is an Environment Manager Necessary?
 
-Environments and environment managers make it very easy to share projects between collaborators without the need to make computer-specific versions that are compatible with a wide variety of hardward and operating systems. This is illustrated schematically in the following figure, where multiple environment managers can be used to run projects on different computers. Depending on the requirements of a project or computer, a wide number of environment managers could be considered by the user.
+Environments and environment managers make it very easy to share projects between collaborators without the need to make computer-specific versions that are compatible with a wide variety of hardware and operating systems. This is illustrated schematically in the following figure, where multiple environment managers can be used to run projects on different computers. Depending on the requirements of a project or computer, a wide number of environment managers could be considered by the user.
 
 ```{figure} environments/figures/complex.svg
 ---
@@ -72,7 +72,7 @@ However, note that `conda` comes with its own set of advantages, for example, in
 
 ## Environment Variables
 
-Modern computers have _environment variables_, which are used to define the behavior of your operating system (which is itself a type of computing environment). These variables are generally not important for most applications covered in this book, as we will focus on computing environments that are more distant from the operating system (for example, a Python environment; not the operating system directly). However, _in particlar for users with a Windows operating system,_ it is often needed to change the `PATH` enviornment variable to make sure various software can be used via a CLI.
+Modern computers have _environment variables_, which are used to define the behavior of your operating system (which is itself a type of computing environment). These variables are generally not important for most applications covered in this book, as we will focus on computing environments that are more distant from the operating system (for example, a Python environment; not the operating system directly). However, _in particular for users with a Windows operating system,_ it is often needed to change the `PATH` environment variable to make sure various software can be used via a CLI.
 
 Instructions for changing your `PATH` variable on Windows can be found via {ref}`this link <env-vars-windows>`.
 
