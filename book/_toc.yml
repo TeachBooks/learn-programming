@@ -47,6 +47,7 @@ parts:
             title: Extensions
           - file: install/ide/vsc/git
             title: Git Integration
+          - file: install/ide/vsc/vs_live_share
     - file: workflows
       title: Software Workflows
       sections:
