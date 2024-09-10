@@ -6,7 +6,7 @@ Miniconda is smaller version of Anaconda that is very quick and easy to install.
 The screenshots in these instructions were made using the Command Prompt on a Windows Operating System (screenshots are from Windows 10). Where needed, instructions and notes for Mac users are provided in addition.
 
 ```{tip}
-Unless you have installed Anaconda or Miniconda recently (e.g., within the last 2 years), we recommend you completely remove older versions of these software distributions from your computer and start from scratch. While it is possible to upgrade them, in our experience it is usually faster and less problematic to simply reinstall.
+Unless you have installed Anaconda or Miniconda recently (e.g., within the last 2-3 years), we recommend you completely remove older versions of these software distributions from your computer and start from scratch. While it is possible to upgrade them, in our experience it is usually faster and less problematic to simply reinstall.
 ```
 
 ## Download and Installation
@@ -41,7 +41,11 @@ name: miniconda_install
 Command line installation of Miniconda (Windows).
 ```
 
-On a Windows machine the Command Prompt doesn't know where to find the executable file `conda.exe` you just installed. You can resolve this in two simple steps:
+**Make sure `conda.exe` is available on your system `PATH`**
+
+On a Windows machine the Command Prompt doesn't know where to find the executable file `conda.exe` you just installed. You can resolve this in two simple steps: 1) find the location of `conda.exe` on your computer, and 2) add the location to the `PATH` environment variable.
+
+These two steps are described below
 
 1. Find the location of `conda.exe` on your computer.
 
@@ -59,10 +63,7 @@ Check out the {ref}`Hidden Files and Folders page<hidden>`!
 
 2. Tell your computer how to find `conda.exe`
 
-This involves adding the file location found in the previous step to the `PATH` environment variable.
-
-If you don't know how to do this, read the {ref}`environment variable instructions for Windows OS <env-vars-windows>`.
-
+This is described on a **separate page:** {ref}`environment variable instructions for Windows OS <env-vars-windows>`.
 
 ````
 ````{tab-item} Mac
@@ -87,11 +88,18 @@ rm ~/miniconda3/miniconda.sh
 
 ## Check Whether Installation Was Successful
 
-The easiest way to check if everything worked properly is to make sure that the `conda` command line tool can be found and executed on your system, which can be done by opening the command prompt and typing `conda --version` (note the two dashes, `--`, not one, `-`!). Depending on your operating system and CLI, you should get the following:
+Before moving on, you should verify that the installation worked properly. A "successful" installation implies that the `conda` application is accessible on your CLI; this is required for some IDE's to work properly (e.g., VS Code).
+
+The easiest way to check if everything worked properly is to make sure that the `conda` command line tool can be found and executed on your system, which can be done by opening the command prompt and typing `conda --version` (note the two dashes, `--`, not one, `-`!). Depending on your operating system and CLI; the following code snippet illustrates the command and response in Windows Command Prompt:
 
 ```none
 C:\Users\YOUR_USERNAME>conda --version
-conda 23.11.0
+conda <YOUR_VERSION_NUMBER>
+```
+
+```{admonition} Note to Windows Users
+:class: tip
+There is a difference between the Command Prompt and the Anaconda version of the Command Prompt (Anaconda Prompt). Make sure `conda` is accessible on the "normal" Command Prompt. As it is made accessible in Anaconda Prompt by default during the installation process, it does not confirm whether or not `conda` is also added to the `PATH` variable for your computer.
 ```
 
 ## Using Anaconda Prompt
