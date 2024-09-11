@@ -1,8 +1,16 @@
 # Visual Studio Live Share
 
+
+```{image} https://visualstudio.microsoft.com/wp-content/uploads/2023/01/v2-Edit-Comp_FINAL-optimized750-1.gif
+---
+align: center
+---
+Figure taken from {cite:t}`microsoftVisualStudio`
+```
+
 Did you ever get frustrated by sharing code with your friends? How nice would it be to do it the Google-Docs style and work on the same document simultaneously! Maybe you know Deepnote, which does this in an online interface. But there's a better solution: [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)!
 
-These steps are heavily based on the [Visual Studio IDE documentation](https://learn.microsoft.com/nl-nl/visualstudio/liveshare/use/install-live-share-visual-studio-code).
+These steps are heavily based on the [Visual Studio IDE documentation](https://learn.microsoft.com/nl-nl/visualstudio/liveshare/use/install-live-share-visual-studio-code) {cite:p}`microsoftWhatLive`.
 
 1. [Download and install the Visual Studio Live Share Extension from Marketplace](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) and reload Visual Studio Code. For Linux, see [this website](https://learn.microsoft.com/en-us/visualstudio/liveshare/reference/linux).
 
