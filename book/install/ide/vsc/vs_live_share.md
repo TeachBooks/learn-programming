@@ -1,7 +1,7 @@
 # Visual Studio Live Share
 
 
-```{image} https://visualstudio.microsoft.com/wp-content/uploads/2023/01/v2-Edit-Comp_FINAL-optimized750-1.gif
+```{figure} https://visualstudio.microsoft.com/wp-content/uploads/2023/01/v2-Edit-Comp_FINAL-optimized750-1.gif
 ---
 align: center
 ---
