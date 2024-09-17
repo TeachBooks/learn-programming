@@ -16,6 +16,7 @@ parts:
         title: conda OLD
       - file: environments/venv
         title: venv (Python)
+    - file: version_control/version_control
     - file: install
       title: Software Installation
       sections:
@@ -48,11 +49,13 @@ parts:
           - file: install/ide/vsc/git
             title: Git Integration
           - file: install/ide/vsc/vs_live_share
+      - file: install/git/intro.md
     - file: workflows
       title: Software Workflows
       sections:
       - file: workflows/jupyter-lab
         title: Jupyter Lab
+      - file: workflows/git/intro
   - caption: MUDE Year 2
     numbered: 3
     chapters:
