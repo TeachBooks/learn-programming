@@ -77,16 +77,16 @@ This YouTube video may also be helpful, but note that the latter part of the vid
 
 ## Authentication with SSH
 
-In order to connect to your repositories on GitLab, we need to properly authenticate ourselves. When we want to visit repositories at gitlab.tudelft.nl, we need to log in via the web browser. The same holds if we want to interact with these repositories remotely with Git from our computer. This means that everytime we make a commit, pull, et cetera, we need to provide our password, which becomes very tedious. Alternatively, if GitLab knows it is indeed us that are making the changes to the repository, we can remove the need to provide a password. This is accomplished with SSH ([Secure Shell Protocol](https://en.wikipedia.org/wiki/Secure_Shell)), and this section will show you how to do this in two main steps:
+In order to connect to your repositories on GitHub, we need to properly authenticate ourselves. When we want to visit repositories at github.com, we need to log in via the web browser. The same holds if we want to interact with these repositories remotely with Git from our computer. This means that every time we make a commit, pull, etc., we need to provide our password, which becomes very tedious. Alternatively, if GitHub knows it is indeed us that are making the changes to the repository, we can remove the need to provide a password. This is accomplished with SSH ([Secure Shell Protocol](https://en.wikipedia.org/wiki/Secure_Shell)), and this section will show you how to do this in two main steps:
 1. Creating an SSH key on your computer, and
-2. Adding the SSH key to your GitLab account.
+2. Adding the SSH key to your GitHub account.
 
-You can also refer to the [GitLab Documentation](https://gitlab.tudelft.nl/help/user/ssh.md) for more information.
+You can also refer to the [GitHub Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for more information.
 
 1. Open up a terminal window (Git Bash on Windows). Next, type (or copy and paste) the following command:
 
     ```
-    ssh-keygen -t ed25519 -C "GitLab"
+    ssh-keygen -t ed25519 -C "GitHub"
     ```
 
 2. You will get output that looks something like this:
@@ -98,34 +98,35 @@ You can also refer to the [GitLab Documentation](https://gitlab.tudelft.nl/help/
 
     Press enter to use the default path (the one between parenthesis). Keep note of this path, as we will need to visit it later on.
 
-3. You will now be asked to enter a passphrase. You can give one, but you will be asked for it everytime you make a commit, so it's better to leave this field empty and use this key only for GitLab. After the command is done executing, it will generate two files: `id_ed25519` and `id_ed25519.pub`. The `.pub` file is the public part of the SSH-Key which we need.
+3. You will now be asked to enter a passphrase. You can give one, but you will be asked for it every time you make a commit, so it's better to leave this field empty and use this key only for GitHub. After the command is done executing, it will generate two files: `id_ed25519` and `id_ed25519.pub`. The `.pub` file is the public part of the SSH-Key which we need.
 
-4. Go to [GitLab](https://gitlab.tudelft.nl) and log in using your NetID. Click on your profile icon on the top-right of the page, then go to Preferences. In the menu on the left, go to SSH-Keys. 
+4. Go to [GitHub](https://github.com) and log in. Click on your profile icon on the top-right of the page, then go to Settings. In the menu on the left, go to SSH and GPG keys. 
 
-5. Navigate to the `id_ed25519.pub` file that we generated in step 2. Open the file with a text editor (Notepad on Windows, textEdit on Mac). Copy its contents and paste it in the 'Key' field of SSH-Keys menu. Give the key a Title and click 'Add key'. 
+5. Navigate to the `id_ed25519.pub` file that we generated in step 2. Open the file with a text editor (Notepad on Windows, textEdit on Mac). Copy its contents and paste it in the 'Key' field of SSH and GPG keys menu. Give the key a Title and click 'Add SSH key'. 
 
-    Note: on MacOS, the `.ssh/` folder is hidden by default, so you won't be able to find it in finder. To show hidden files and folders, press **Command + Shift + .**.
+    Note: on macOS, the `.ssh/` folder is hidden by default, so you won't be able to find it in Finder. To show hidden files and folders, press **Command + Shift + .**.
 
     At this point, your screen should look like this:
 
-    ```{figure} figures/add_key.JPG
+    ```{figure} figures/add_key.png
     ---
     height: 400px
     name: add_key
     ---
-    Add SSH Key to GitLab Account.
+    Add SSH Key to GitHub Account.
     ```
 
     _Note the key contents will be different for you: just make sure you copy the contents of the file `id_ed25519.pub`._
 
-6. Now test the connection. Go to the terminal (Git Bash on windows) and type:
+6. Now test the connection. Go to the terminal (Git Bash on Windows) and type:
 
     ```
-    ssh -vT git@gitlab.tudelft.nl
+    ssh -vT git@github.com
     ```
 
     You should get a huge output, but somewhere at the end of that output it should say something like:
 
     ```
-    Welcome to GitLab, <netid>!
+    Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.
     ```
+
