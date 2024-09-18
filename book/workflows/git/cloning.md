@@ -18,7 +18,7 @@ Upon opening VS Code, we see that the first thing that is needed is to clone a r
 
 ```{figure} images/clone1.png
 ---
-width: 100%
+width: 80%
 name: clone1
 ---
 Opening the VS Code Source Control tab for the first time--we need to clone a repository.
@@ -28,7 +28,7 @@ Visit the repository you would like to clone to your computer on GitHub. As illu
 
 ```{figure} images/clone2.png
 ---
-width: 100%
+width: 80%
 name: clone2
 ---
 Home page of the repository in GitHub; note the "Clone" button.
@@ -49,17 +49,25 @@ Copy SSH address of repository to your clipboard.
 % Mona stopped here
 ## Set the local path
 
-Now you are ready to click the "Clone a repository from the Internet" option in the GUI ({numref}`clone1`), which will open a window asking you to enter the address of the _remote repository_, after selecting the "URL" tab ({numref}`clone3`). Paste the address you copied from GitLab into the first field (the URL). Then select the location where you would like the _local repository_ to be located, the "Local path." 
+Now you are ready to click the "Clone Repository" option in the Source Control tab of VS Code ({numref}`clone1`). Paste the address you copied from GitHub into the top bar and press 'enter' (as shown in {numref}`clone4`). Then select the folder or location on your local machine where you would like the _local repository_ to be stored ({numref}`clone5`).
 
-```{figure} ../images_gui/clone3.JPG
+```{figure} images/clone4.png
 ---
-width: 70%
-name: clone3
+width: 80%
+name: clone4
 ---
-Enter the URL of the remote repo and the path of the local repo.
+Enter the URL from GitHub and press 'enter'.
 ```
 
-As you can see in {numref}`clone3`, we have chosen to put the MUDE directory in the place where we store all code on the C drive, `C:\code\MUDE`. You don't need to create a new folder for the repository (e.g., `sandbox-public` in this example) because the process of cloning a repository will do that automatically. You can confirm this by seeing that the example in {numref}`clone3` shows `C:\code\MUDE\sandbox-public` instead of `C:\code\MUDE\sandbox-public\sandbox-public`.
+```{figure} images/clone5.png
+---
+width: 80%
+name: clone5
+---
+Browse to the location you want to store the _local repository_.
+```
+
+As you can see in {numref}`clone5`, we have chosen to put the cloned repository in the MUDE directory in the place where we store all code, `code\MUDE`. You don't need to create a new folder for the repository (e.g., `pa-1-3-monadevos` in this example) because the process of cloning a repository will do that automatically. 
 
 
 `````{admonition} Where to put your local repositories
@@ -67,17 +75,15 @@ As you can see in {numref}`clone3`, we have chosen to put the MUDE directory in 
 We strongly encourage you follow these pieces of advice:
 1. **Do not** store your local repositories in a location that is backed up using cloud software (e.g., OneDrive, Dropbox, etc). This often interferes with the functioning of git. Instead, we will push to the _remote repositories_ to backup our work.
 2. **Do not** store your local repositories in locations with spaces in the file path, especially on Windows. While there are ways to deal with this if it happens, you will save yourself trouble down the line if you avoid using spaces in your folder and file names.
-3. **Do** store your local repositories for MUDE in an organized way. We advise creating a `MUDE` directory, where each of the sub-directories would be a local git repository. Here is an illustrationg of such a structure for your working directories:
+3. **Do** store your local repositories for MUDE in an organized way. We advise creating a `MUDE` directory, where each of the sub-directories would be a local git repository. Here is an illustrating of such a structure for your working directories:
 
 ```
 .
 ├── MUDE
-│   ├── Project_1
-|   ├── ...
 |   ├── Week_1_1
 |   ├── ...
 |   ├── Week_1_4
-│       ├── PA04.ipynb
+│       ├── PA-04.ipynb
 │       └── ...
 │   └── ...
 ```
@@ -86,23 +92,25 @@ Adopting this structure will make it very easy for you to submit assignments for
 
 ## Creating the clone
 
-At this point you can create the local repository by clicking "Clone," which will start the process of downloading the files from GitLab to your computer at the location you chose for local path.
+At this point you can create the local repository by clicking "Select Repository Destination," which will start the process of downloading the files from GitHub to your computer at the location you chose for local path.
 
 `````{note}
-If you were not successful in creating an SSH key and linking it to your GitLab account, this is when you will find out, as a message like this will appear:
-```{figure} ../images_gui/clone4.JPG
+If you were not successful in creating an SSH key and linking it to your GitHub account, this is when you will find out, as a message like this will appear:
+
+```{figure} images/clone6.png
 ---
-width: 60%
-name: clone4
+width: 80%
+name: clone6
 ---
 Error message due to failed SSH setup.
 ```
-If this happens, go back to the [SSH setup instructions](https://mude.citg.tudelft.nl/software/git_install/#authentication-with-ssh)
+% this link needs to be updated
+If this happens, go back to the [SSH setup instructions]()
 `````
 
-If you were successful in cloning the repository, you will see something similar to {numref}`clone7`. Now we are ready to work on the files and preserve the changes by making our first local **commit**!
+If you were successful in cloning the repository, you will see something similar to {numref}`clone7` and you can choose to open your _local repository_. Now we are ready to work on the files and preserve the changes by making our first local **commit**!
 
-```{figure} ../images_gui/clone7.JPG
+```{figure} images/clone7.png
 ---
 width: 80%
 name: clone7
