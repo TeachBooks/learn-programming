@@ -23,8 +23,7 @@ you switch between branches, you can think of HEAD as the most recent
 commit on that branch. For example, the most recent commit on branch
 `main` is "Modify README.md contents".
 
-The graph in {numref}`branch1`
-below displays the current commit history we have.
+The graph below displays the current commit history we have.
 
 ![Commit graph of our repository](./images/branch1.png)
 
@@ -34,8 +33,7 @@ work together in parallel. During projects you will be working on
 A common graphical structure of commits is shown below, where we have
 developers working on 3 separate branches and merging their work when
 necessary. This separation offers flexibility, parallelization of work
-and offers more control over the development process (figure
-{numref}`branch2`).
+and offers more control over the development process.
 
 ![Commit graph of a sample repository](./images/branch2.png)
 
@@ -43,8 +41,7 @@ and offers more control over the development process (figure
 
 
 First let us check on what branch we are currently at. Call the command
-`git branch` (figure [22](#branch3){reference-type="ref"
-reference="branch3"}). The green text shows what branch we are currently
+`git branch`. The green text shows what branch we are currently
 at.
 
 ![Check existing branches](./images/branch3.png)
@@ -56,7 +53,7 @@ will call getting-started. Call the command git branch
 
 We can move to the newly created branch via
 `git checkout getting-started`. Call `git branch` again to verify that
-you have moved to a new branch (figure {numref}`branch4`).
+you have moved to a new branch.
 
 ![Moving to branch `getting-started`](./images/branch4.png)
 
@@ -79,7 +76,7 @@ Kiril Vasilev - k.v.vasilev-1@student.tudelft.nl
 Last modification: 30.04.2022
 ```
 
-We will commit the new changes ({numref}`branch5`).
+We will commit the new changes.
 
 ![Committing new changes](./images/branch5.png)
 
@@ -92,7 +89,7 @@ wish to!
 
 To show how to merge branches, let us return to our main branch and
 create a new empty file called "new-file.txt". Next, we will create a
-new commit for it and return to `getting-started` branch ({numref}`branch7`).
+new commit for it and return to `getting-started` branch .
 
 Note that when we switch to `main`, the README.md file does not contain
 the changes we made on the other branch.
@@ -140,8 +137,7 @@ In case you get stuck, follow the guide in the following link:
 ![Vim text editor for merging branches](./images/branch8.png)
 
 We can now inspect the graph again with the new changes. The progress of
-the other branch (`main`) has been moved to `getting-started` as seen in
-figure {numref}`branch9`.
+the other branch (`main`) has been moved to `getting-started` as seen below.
 
 ![New commits graph](./images/branch9.png)
 
@@ -154,11 +150,7 @@ our merge. Since git is a version control system and sees that there are
 no new changes, it will simply move the pointer of branch `main` to the
 same commit the branch `getting-started` points:
 
-<figure id="branch11">
-<p><img src="./images/branch11.png" alt="image" /> caption<span>Commits
-graph showing a merge</span> <span id="branch11"
-label="branch11"></span></p>
-</figure>
+![graph](./images/branch11.png)
 
 ## Deleting branches
 
@@ -166,8 +158,7 @@ label="branch11"></span></p>
 Branch `getting-started` has lived its use, so we can delete it as we do
 not plan on making new changes to it. This will not remove any of the
 commits made on it. It will only remove the pointer itself. Use
-`git branch -d getting-started` to delete the branch (figure
-{numref}`branch12`).
+`git branch -d getting-started` to delete the branch.
 
 ![Deleting a branch](./images/branch12.png)
 
@@ -175,8 +166,7 @@ commits made on it. It will only remove the pointer itself. Use
 
 
 It is also possible to branch out from a past commit. This can be done
-by checking out to existing commit (figure
-{numref}`branch13`). This
+by checking out to existing commit . This
 operation will create a so called "detached" HEAD. Here we checkout on
 commit with id `c2f912f`. Note that the id will be different on your
 machine. Therefore, replace this id with the id of the commit on your
@@ -190,7 +180,7 @@ follow the instructions provided by git in figure
 
 ![Creating a new branch](./images/branch14.png)
 
-In figure {numref}`branch14`,
+In figure ,
 you can now see that we have successfully created a new branch from the
 current commit. We will discuss in the coming sections of this document
 what the text in red and green mean, so do not be surprised that you are
