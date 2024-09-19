@@ -13,7 +13,7 @@ Both of these terms refer to an action we take to get information about updates 
 Sometimes we are making changes to the files on our computer and we just want to see if something new has happened. **Fetch** allows us to check this without making conflicting changes to our local machine.
 
 ```{note}
-In MUDE the projects we will work on are relatively simple, and you are in close contact with your other group members, so in practice this can be overly cautious. However, it is good practice to make it a habit of fetching first, then pulling once you are sure there are no conflicts.
+It is good practice to make it a habit of fetching first, then pulling once you are sure there are no conflicts.
 ```
 
 ## Fetch-pull from remote

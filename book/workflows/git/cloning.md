@@ -1,16 +1,6 @@
 # Cloning a Repository
 
-This page will show you how to use Source Control in VS Code to **clone** a repository. **Cloning** is the process of duplicating not only the files, but also the record of all changes that have been made to those files in the past (that's what the git software is doing!). Because the history of these files is preserved, even if we make changes to these files in one of the repositories, the git software will provide a way to update the other software some time in the future. This allows multiple people to work on the same files at the same time; or, you as an individual to work on the same files using several different computers (e.g., a work and home laptop).
-
-Creating several clones of a repository allows us to also provide a backup of our files (and their history) in case we lose access to the originals (perhaps your computer breaks, or is stolen). It is a great idea to have a copy of the repository in the cloud, which automatically provides a very reliable file storage location. This is one of the key services that companies like GitLab and GitHub provide. 
-
-In practice we refer to the repository stored on our computer as the **local repository.** This is where we typically spend most of our time working on our code, debugging it and running analysis.
-
-% Not sure about the collaboration notes in this part, since i guess they will be using Live Share and then only one person pushes to the remote repo?
-The repository on GitHub is our **remote repository.** This can be considered the backup of the files in our repository. When working with multiple people, it can also be considered the most current version of the project. For example, you may be working on improving the plots in your assignment, whereas a colleague is updating the Python script running your model. You will use the _local repository_ to develop your particular task, and the _remote repository_ to collect everyone elses work and deploy it to your local computer (if you need to use it there).
-
-% I just changed GitLab to GitHub
-Note that in MUDE, we will use the _remote repositories_ on GitHub to share files with you. After completing this page, you will be able to **clone** the remote repository to your computer with the click of a button. Later pages will show you how to **push** your _local_ changes back to the _remote_, which is how you will submit your assignments for grading.
+This page will show you how to use Source Control in VS Code to **clone** a repository. **Cloning** is the process of duplicating not only the files to your own computer, but also the record of all changes that have been made to those files in the past (that's what the git software is doing!). Because the history of these files is preserved, even if we make changes to these files in one of the repositories, the git software will provide a way to update the other software some time in the future. This allows multiple people to work on the same files at the same time; or, you as an individual to work on the same files using several different computers (e.g., a work and home laptop).
 
 ## Opening the Source Control tab in VS Code
 
@@ -67,27 +57,25 @@ name: clone5
 Browse to the location you want to store the _local repository_.
 ```
 
-As you can see in {numref}`clone5`, we have chosen to put the cloned repository in the MUDE directory in the place where we store all code, `code\MUDE`. You don't need to create a new folder for the repository (e.g., `pa-1-3-monadevos` in this example) because the process of cloning a repository will do that automatically. 
-
+As you can see in {numref}`clone5`, we have chosen to put the cloned repository in a directory in the place where we store all code, `code\MUDE`. You don't need to create a new folder for the repository (e.g., `pa-1-3-monadevos` in this example) because the process of cloning a repository will do that automatically. 
 
 `````{admonition} Where to put your local repositories
 
 We strongly encourage you follow these pieces of advice:
 1. **Do not** store your local repositories in a location that is backed up using cloud software (e.g., OneDrive, Dropbox, etc). This often interferes with the functioning of git. Instead, we will push to the _remote repositories_ to backup our work.
 2. **Do not** store your local repositories in locations with spaces in the file path, especially on Windows. While there are ways to deal with this if it happens, you will save yourself trouble down the line if you avoid using spaces in your folder and file names.
-3. **Do** store your local repositories for MUDE in an organized way. We advise creating a `MUDE` directory, where each of the sub-directories would be a local git repository. Here is an illustrating of such a structure for your working directories:
+3. **Do** store your local repositories for your project in an organized way. We advise creating a directory for all repositories you have, where each of the sub-directories would be a local git repository. Here is an illustrating of such a structure for your working directories:
 
 ```
 .
-├── MUDE
-|   ├── Week_1_1
+├── Git_repos
+|   ├── Repo_1
 |   ├── ...
-|   ├── Week_1_4
+|   ├── Repo_2
 │       ├── PA-04.ipynb
 │       └── ...
 │   └── ...
 ```
-Adopting this structure will make it very easy for you to submit assignments for MUDE.
 `````
 
 ## Creating the clone
@@ -105,7 +93,7 @@ name: clone6
 Error message due to failed SSH setup.
 ```
 % this link needs to be updated
-If this happens, go back to the [SSH setup instructions]()
+If this happens, go back to the [SSH setup instructions](../../install/git/intro.md)
 `````
 
 If you were successful in cloning the repository, you will see something similar to {numref}`clone7` and you can choose to open your _local repository_. Now we are ready to work on the files and preserve the changes by making our first local **commit**!

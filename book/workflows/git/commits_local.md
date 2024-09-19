@@ -2,16 +2,9 @@
 
 Now that we have learned how to clone a repository, we will find out how to make changes to it and record by making **commits**.
 
-% not sure if this note is necessary, and thus if i should put my own name and repo
-```{note}
-The examples in this page will be illustrated using an arbitrary public repository set up by a MUDE TA on GitHub called [sandbox-public](https://github.com/monadevos/sandbox-public/). You can follow along by creating your own repository in your GitHub, then cloning it to your computer (i.e., making a _local_ repository, as we learned in the previous section).
-
-If you create your own repository, keep the box checked to initialize with a `README.md` file, which will look identical to that in the examples below.
-```
-
 ## The remote repository
 
-We begin by identifying the repository on which we would like to work, in this case sandbox-public; the starting condition is visible in {numref}`commit1` after cloning and opening your repository (see previous page). We can see that it began as a completely empty repository, except for the default README.md file that GitHub creates automatically.
+We begin by identifying the repository on which we would like to work, in this case `sandbox-public`; the starting condition is visible in {numref}`commit1` after cloning and opening your repository (see previous page). We can see that it began as a completely empty repository, except for the default README.md file that GitHub creates automatically.
 
 ```{figure} images/commit1.png
 ---
@@ -48,14 +41,12 @@ name: commit3
 ---
 Summary of changes made to `README.md` in VS Code Source Control.
 ```
-We now need to stage the changes that we wish to commit, either click the + icon next to the file or use the Stage All Changes option if there are multiple files you wish to commit.
+We now need to stage the changes that we wish to commit, either click the + icon next to the file or use the Stage All Changes option if there are multiple files you wish to commit. Staging refers to the process of preparing changes to be committed. When you stage changes, you are essentially marking them to be included in the next commit. This allows you to selectively choose which changes to include in a commit, providing more control over your project's history.
 
-{numref}`commit3` also illustrates the space above the "Commit" button where you can provide a commit message. The commit message can be extremely useful for reviewing changes, however, especially when working with multiple people. *It is important to write concise (limit it to 50 characters max), yet descriptive commit messages.* It could be useful to write your commit message such that it completes the following sentence: _This commit will..._.
-
-At this point we are ready to make our first **commit**, but what does that mean? A **commit** is the way that we tell the git software to make a record of the change that we just made to the file. That's it! We can do this via VS Code Source Control by clicking the button "Commit". 
+{numref}`commit3` also illustrates the space above the "Commit" button where you can provide a commit message.
 
 ```{note}
-A _commit_ can record changes made to more than one file at once--we are only editing one file at a time now, to keep things easy to visualize.
+A local commit can record changes made to more than one file at once--we are only editing one file at a time now, to keep things easy to visualize.
 ```
 
 ## Another commit
