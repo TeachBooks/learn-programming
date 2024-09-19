@@ -20,7 +20,7 @@ In MUDE the projects we will work on are relatively simple, and you are in close
 
 The GitHub GUI makes this process very easy. Start by clicking the "Fetch origin" button, circled in red in {numref}`fetch_pull1`.
 
-```{figure} ../images_gui/fetch_pull1.JPG
+```{figure} ./images/fetch_pull1.JPG
 ---
 width: 80%
 name: fetch_pull1
@@ -30,7 +30,7 @@ No local changes, with indication of how to fetch from remote.
 
 Since a commit has been made to the remote repository, we can see now that the GUI tells us ({numref}`fetch_pull2`). It also is quite obvious how we can integrate this into our local repository with the "Pull origin" button.
 
-```{figure} ../images_gui/fetch_pull2.JPG
+```{figure} ./images/fetch_pull2.JPG
 ---
 width: 80%
 name: fetch_pull2
@@ -43,7 +43,7 @@ Still no local changes, but we can see that there is a new commit on remote avai
 Once the commit has been pulled to the local repository, we can open up the file in our text editor to confirm.
 {numref}`fetch_pull3`
 
-```{figure} ../images_gui/fetch_pull3.JPG
+```{figure} ./images/fetch_pull3.JPG
 ---
 width: 80%
 name: fetch_pull3

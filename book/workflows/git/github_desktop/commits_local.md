@@ -12,7 +12,7 @@ If you create your own repository, keep the box checked to initialize with a `RE
 
 We begin by identifying the repository on which we would like to work, in this case `sandbox-public`; the starting condition is visible in {numref}`clone5`. We can see that it began as a completely empty repository, except for the default `README.md` file that GitLab creates automatically. Begin by cloning the repository to your computer to make the _local repository_ (see previous page).
 
-```{figure} ../images_gui/clone1.JPG
+```{figure} ./images/clone1.JPG
 ---
 width: 80%
 name: clone5
@@ -24,7 +24,7 @@ Default starting condition of a remote repository on GitLab.
 
 Now that our repository is cloned, we are ready to get to work! First we will make a change to `README.md` with our text editor (in this case, it's Notepad++; you may be using something different). As shown in {numref}`commit1`, we have completely deleted the original text and replaced it with something more...relevant. Save the changes to the file, then go back to the GitHub GUI.
 
-```{figure} ../images_gui/commit1.JPG
+```{figure} ./images/commit1.JPG
 ---
 width: 50%
 name: commit1
@@ -38,7 +38,7 @@ It is important to remember to save the changes you make to files (either `CTRL`
 
 As we can see in {numref}`commit2`, git has now registered the changes in our file. git uses a few text symbols to identify and describe the changes, for example, a `+` and `-`, along with a text-based summary of the changes at the top of the file (i.e., the stuff between the `@@` symbols...you can read more about this in the CLI chapter). The GitHub GUI highlights the changed lines in green and red, making it very obvious what happened.
 
-```{figure} ../images_gui/commit2.JPG
+```{figure} ./images/commit2.JPG
 ---
 width: 80%
 name: commit2
@@ -48,7 +48,7 @@ Summary of changes made to `README.md` in the GitHub GUI.
 
 At this point we are ready to make our first **commit**, but what does that mean? A **commit** is the way that we tell the git software to make a record of the change that we just made to the file. That's it! We can do this via the GUI by clicking the button "Commit to main", as shown in {numref}`commit3` (`main` is the default **branch** of this repository; we aren't learning about branches at the moment, however).
 
-```{figure} ../images_gui/commit3.JPG
+```{figure} ./images/commit3.JPG
 ---
 width: 40%
 name: commit3
@@ -66,7 +66,7 @@ A _commit_ can record changes made to more than one file at once--we are only ed
 
 Because the change to our `README.md` was so large, it was difficult to see all the changes. Let's try making another one. Using the change summary in {numref}`commit5`, can you tell what happened to the file?
 
-```{figure} ../images_gui/commit5.JPG
+```{figure} ./images/commit5.JPG
 ---
 width: 80%
 name: commit5
@@ -79,7 +79,7 @@ A small change to `README.md`.
 
 All we did was add the `.md` to the end of `README`.
 
-```{figure} ../images_gui/commit4.JPG
+```{figure} ./images/commit4.JPG
 ---
 width: 60%
 name: commit4
@@ -89,7 +89,7 @@ The small change to `README.md` revealed.
 
 {numref}`commit6` illustrates the commit message.
 
-```{figure} ../images_gui/commit6.JPG
+```{figure} ./images/commit6.JPG
 ---
 width: 40%
 name: commit6
@@ -101,7 +101,7 @@ Writing a non-default commit message.
 
 Now that we have recorded our commits with git, there is one last thing to do: update the _remote repository._ We can do this by **pushing** the commit, using the blue "Push origin" button shown in {numref}`commit7`.
 
-```{figure} ../images_gui/commit7.JPG
+```{figure} ./images/commit7.JPG
 ---
 width: 80%
 name: commit7
@@ -117,7 +117,7 @@ Origin is the name git uses to identify the original _remote repository_ where o
 
 Now that we have pushed to origin, it is easy to confirm that things worked. First, we can see that the GitHub GUI once again shows the "No local changes" message, as in {numref}`clone7`.
 
-```{figure} ../images_gui/clone7.JPG
+```{figure} ./images/clone7.JPG
 ---
 width: 80%
 name: clone7
@@ -127,7 +127,7 @@ View of GitHub GUI with no local changes.
 
 In addition, we can check the remote repository directly. Visiting the [home page of the repository](https://gitlab.tudelft.nl/rlanzafame/sandbox-public/) is the best way to check the current status. {numref}`commit8` illustrates how this paged looked just after we pushed our commit to origin. As you can see the screenshot was made very soon afterwards (the "just now" message), the commit message is visible, and we can see the actual change in in the text of `README.md`.
 
-```{figure} ../images_gui/commit8.JPG
+```{figure} ./images/commit8.JPG
 ---
 width: 80%
 name: commit8

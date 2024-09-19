@@ -13,7 +13,7 @@ parts of one (or multiple) files. Since git does not know how to handle
 that and whose changes to consider, it prompts the user to decide
 instead ({numref}`mconflict1`).
 
-![Visualisation of a merge conflict](../images/mconflict1.png)
+![Visualisation of a merge conflict](./images/mconflict1.png)
 
 Let us create a merge conflict ourselves:
 
@@ -21,7 +21,7 @@ We will start by making a new branch `change-date-format`. We will
 checkout to it, modify the date format and make a commit as show in
 figure {numref}`mconflict2`.
 
-![Committing the changes](../images/mconflict2.png)
+![Committing the changes](./images/mconflict2.png)
 
 Next, we will return to `main` branch. We will edit the same line of the
 README.md and then checkout back to `change-date-format` branch ({numref}`mconflict3`).
@@ -29,14 +29,14 @@ README.md and then checkout back to `change-date-format` branch ({numref}`mconfl
 In figure {numref}`mconflict3`
 there is also a graph visualization.
 
-![Committing the changes](../images/mconflict3.png)
+![Committing the changes](./images/mconflict3.png)
 
-![Graph visualisation](../images/mconflict4.png)
+![Graph visualisation](./images/mconflict4.png)
 
 Finally, we will merge `main` into `change-date-format` and get a merge
 conflict as seen in figure {numref}`mconflict5`}, because we modify the same parts of the file.
 
-![Merge conflict](../images/mconflict5.png)
+![Merge conflict](./images/mconflict5.png)
 
 The changes on the current branch are preceded by \<\<\<\<\<\<\< HEAD,
 while the changes from `main` branch are preceded by ======= and
@@ -48,7 +48,7 @@ just need to make a new commit. Note that the current branch is now in
 stage "MERGING". We have decided to take the best out of the 2 branches
 and merge their changes.
 
-![Completing the merge](../images/mconflict6.png)
+![Completing the merge](./images/mconflict6.png)
 
 Thus, we have succeeded in dealing with a merge conflict! The graph in
 figure {numref}`mconflict6`

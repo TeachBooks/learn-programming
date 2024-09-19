@@ -25,7 +25,7 @@ git config --global user.email "k.v.vasilev-1@student.tudelft.nl"
 
 Console example in {numref}`setup1`:
 
-```{figure} ../images/setup1.png
+```{figure} ./images/setup1.png
 ---
 width: 100%
 name: setup1
@@ -51,7 +51,7 @@ my-new-repository, which is inside the folders TUDELFT/Year 2/ Quarter
 Note that it is not necessary to create a new folder before creating a
 new repository. You can make a repository in an existing folder as well.
 
-```{figure} ../images/setup2.png
+```{figure} ./images/setup2.png
 ---
 width: 100%
 name: setup2
@@ -85,7 +85,7 @@ main and git checkout main at the same time. Later in this tutorial, we
 will cover what branching means and why it is useful for the development
 process.
 
-```{figure} ../images/setup3.png
+```{figure} ./images/setup3.png
 ---
 width: 100%
 name: setup3
@@ -107,7 +107,7 @@ the file, which was created via notepad or any other text editor that
 your operating system has. For instance, nano or vim, which should come
 installed with Git Bash. ({numref}`first-commit1`).
 
-```{figure} ../images/first-commit1.png
+```{figure} ./images/first-commit1.png
 ---
 width: 100%
 name: first-commit1
@@ -132,7 +132,7 @@ You can replace the contributors name and email with yours. Save the
 file and run the command `ls` to verify that you have successfully made
 a new file as seen in {numref}`first-commit2`.
 
-```{figure} ../images/first-commit2.png
+```{figure} ./images/first-commit2.png
 ---
 width: 100%
 name: first-commit2
@@ -143,7 +143,7 @@ Checking if file was created in our current folder
 Use the command `cat "README.md"` to show the contents of the file and
 verify they are correct ({numref}`first-commit3`).
 
-```{figure} ../images/first-commit3.png
+```{figure} ./images/first-commit3.png
 ---
 width: 100%
 name: first-commit3
@@ -154,7 +154,7 @@ Check contents of file using cat command
 Use the command `git status` to check tracked and untracked files in
 current repository ({numref}`first-commit4`).
 
-```{figure} ../images/first-commit4.png
+```{figure} ./images/first-commit4.png
 ---
 width: 100%
 name: first-commit4
@@ -174,7 +174,7 @@ make changes to the files. Next, we stage those changes via `git add`
 and finally we commit (save) those changes to the repository with
 `git commit` command.
 
-```{figure} ../images/first-commit5.png
+```{figure} ./images/first-commit5.png
 ---
 width: 100%
 name: first-commit5
@@ -185,7 +185,7 @@ Steps to commit a change in a file
 We can call `git status` again to check if the file is now being tracked
 ({numref}`first-commit6`).
 
-```{figure} ../images/first-commit6.png
+```{figure} ./images/first-commit6.png
 ---
 width: 100%
 name: first-commit6
@@ -207,7 +207,7 @@ commit. Note that a one-line summary is also sufficient for a commit
 message. Therefore, a more appropriate message would be \"Add README.md
 file\".
 
-```{figure} ../images/first-commit7.png
+```{figure} ./images/first-commit7.png
 ---
 width: 100%
 name: first-commit7
@@ -224,7 +224,7 @@ Congratulations! You have now completed your first commit of changes via
 git. Calling `git status` will show us that there are no new changes,
 and everything is up to date ({numref}`first-commit8`).
 
-```{figure} ../images/first-commit8.png
+```{figure} ./images/first-commit8.png
 ---
 width: 100%
 name: first-commit8
@@ -241,7 +241,7 @@ and by whom via commits.
 
 Run the command `git log` to get that summary ({numref}`compare1`).
 
-```{figure} ../images/compare1.png
+```{figure} ./images/compare1.png
 ---
 width: 100%
 name: compare1
@@ -268,7 +268,7 @@ Last modification: 30.04.2022
 
 We stage the file and commit the changes ({numref}`compare2`).
 
-```{figure} ../images/compare2.png
+```{figure} ./images/compare2.png
 ---
 width: 100%
 name: compare2
@@ -278,7 +278,7 @@ Stage and commit new modificaiton
 
 Running `git log` now shows us the two commits we have made ({numref}`compare3`).
 
-```{figure} ../images/compare3.png
+```{figure} ./images/compare3.png
 ---
 width: 100%
 name: compare3
@@ -296,7 +296,7 @@ differences between the two commits in terms of changes of files. Note
 that, the first 7 characters of the commit id are enough to identify it
 in commands ({numref}`compare4`):
 
-```{figure} ../images/compare4.png
+```{figure} ./images/compare4.png
 ---
 width: 100%
 name: compare4
@@ -310,7 +310,7 @@ to their respective row.
 Note that swapping the commit identifiers also swaps the way changes are
 displayed ({numref}`compare5`).
 
-```{figure} ../images/compare5.png
+```{figure} ./images/compare5.png
 ---
 width: 100%
 name: compare5

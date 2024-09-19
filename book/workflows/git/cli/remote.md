@@ -22,7 +22,7 @@ given the opportunity to either create a new blank repository or create
 a repository from an existing project template or import an existing
 repository from another project ({numref}`remote1`).
 
-```{figure} ../images/remote1.png
+```{figure} ./images/remote1.png
 ---
 height: 400px
 name: remote1
@@ -35,7 +35,7 @@ details such as project name and unselect the checkbox "Initialize
 repository with a README", since it is better to create the README file
 ourselves ({numref}`remote2`).
 
-```{figure} ../images/remote2.png
+```{figure} ./images/remote2.png
 ---
 height: 400px
 name: remote2
@@ -46,7 +46,7 @@ Creating a new project - filling details
 Upon creating the repository, GitLab gives us a set of instructions to
 follow depending on what we would like to do ({numref}`remote3`).
 
-```{figure} ../images/remote3.png
+```{figure} ./images/remote3.png
 ---
 height: 400px
 name: remote3
@@ -60,7 +60,7 @@ That was it! We have successfully created our own remote repository!
 
 At this point, you will need to use your personal SSH key, which you should have installed using the instructions [here](https://mude.citg.tudelft.nl/software/git_install/). If you were not successful, you will probably see something like the prompt in {numref}`ssh1` when logged into your TU Delft GitLab account.
 
-```{figure} ../images/ssh1.png
+```{figure} ./images/ssh1.png
 ---
 width: 100%
 name: ssh1
@@ -99,7 +99,7 @@ git push -u origin --all
 Make sure you copy paste the commands above from your own remote
 repository on GitLab ({numref}`push1`)!
 
-```{figure} ../images/push1.png
+```{figure} ./images/push1.png
 ---
 width: 100%
 name: push1
@@ -110,7 +110,7 @@ Pushing local repository to GitLab
 Open the GitLab page of your repository and refresh the page. You should
 now see it there ({numref}`push2`).
 
-```{figure} ../images/push2.png
+```{figure} ./images/push2.png
 ---
 width: 100%
 name: push2
@@ -120,7 +120,7 @@ Uploaded repository on GitLab
 
 Now we have pushed (uploaded) all our commits to the online repository.
 
-```{figure} ../images/push3.png
+```{figure} ./images/push3.png
 ---
 width: 100%
 name: push3
@@ -133,7 +133,7 @@ command allows us to push local changes to a remote repository. To show
 this, let us edit our \"new-file.txt\" file and add a single line, stage
 the changes, commit them and finally push them ({numref}`push4`).
 
-```{figure} ../images/push4.png
+```{figure} ./images/push4.png
 ---
 width: 100%
 name: push4
@@ -179,7 +179,7 @@ that case, you will need to pull their changes. For the sake of this
 exercise, to show how pulling/fetching works, we will first hard reset
 our branch 1 commit back to simulate this ({numref}`push6`).
 
-```{figure} ../images/push6.png
+```{figure} ./images/push6.png
 ---
 width: 100%
 name: push6
@@ -210,7 +210,7 @@ remote, because it has a different commit history compared to the local.
 Use `git fetch` to fetch changes and `git pull` to pull changes from
 remote repository ({numref}`push7`).
 
-```{figure} ../images/push7.png
+```{figure} ./images/push7.png
 ---
 width: 100%
 name: push7
@@ -229,7 +229,7 @@ the \"Clone with SSH\" textbox. You can also clone using HTTPS, but that
 may require you to write your NetID and password every time you push or
 pull changes from the remote repository ({numref}`clone1`).
 
-```{figure} ../images/clone1.png
+```{figure} ./images/clone1.png
 ---
 height: 300px
 name: clone1
@@ -242,7 +242,7 @@ Next make a new folder, where you wish to place the repository ({numref}`clone2`
 Note that it is not mandatory to create a new folder. You can clone a
 repository in an existing folder as well.
 
-```{figure} ../images/clone2.png
+```{figure} ./images/clone2.png
 ---
 width: 100%
 name: clone2
@@ -253,7 +253,7 @@ Creating a new folder
 Next, run the `git clone` command and provide it with the SSH link you
 copied ({numref}`clone3`).
 
-```{figure} ../images/clone3.png
+```{figure} ./images/clone3.png
 ---
 width: 100%
 name: clone3
@@ -261,7 +261,7 @@ name: clone3
 Cloning a repository
 ```
 
-```{figure} ../images/clone4.png
+```{figure} ./images/clone4.png
 ---
 width: 100%
 name: clone4
@@ -278,7 +278,7 @@ one, we need to run the following command ({numref}`clone5`):
 git checkout -b change-date-format origin/change-date-format
 ```
 
-```{figure} ../images/clone5.png
+```{figure} ./images/clone5.png
 ---
 width: 100%
 name: clone5

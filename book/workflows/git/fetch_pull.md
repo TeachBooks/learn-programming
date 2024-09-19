@@ -20,29 +20,29 @@ It is good practice to make it a habit of fetching first, then pulling once you 
 
 Let's first make a commit to the remote repository as explained in [the first chapter](commits_remote.md)
 
-Now we can include the commit in our local repository that we have open in VS Code. We can either right-click on the three dots next to "SOURCE CONTROL" and "Fetch" ({numref}`fetch_pull1`) or click on the little "Fetch" icon next to "SOURCE CONTROL GRAPH".
+Now we can include the commit in our local repository that we have open in VS Code. We can either right-click on the three dots next to "SOURCE CONTROL" and "Fetch" ({numref}`fetch_pull1_VSC`) or click on the little "Fetch" icon next to "SOURCE CONTROL GRAPH".
 
 ```{figure} images/fetch_pull1.png
 ---
 width: 40%
-name: fetch_pull1
+name: fetch_pull1_VSC
 ---
 How to fetch from remote, option 1.
 ```
 ```{figure} images/fetch_pull2.png
 ---
 width: 40%
-name: fetch_pull2
+name: fetch_pull2_VSC
 ---
 How to fetch from remote, option 2.
 ```
 
-As you can see in ({numref}`fetch_pull3`), under the Source Control Graph we can now see the new commits that have been made (purple) and we can click on one to see the specific changes that have been made. We can now pull all the new commits to our local repository by clicking "Sync Changes".
+As you can see in ({numref}`fetch_pull3_VSC`), under the Source Control Graph we can now see the new commits that have been made (purple) and we can click on one to see the specific changes that have been made. We can now pull all the new commits to our local repository by clicking "Sync Changes".
 
 ```{figure} images/fetch_pull3.png
 ---
 width: 100%
-name: fetch_pull3
+name: fetch_pull3_VSC
 ---
 Check the new changes and pull the commits to the local repository
 ```
@@ -50,9 +50,9 @@ Check the new changes and pull the commits to the local repository
 ## Confirm local changes
 
 Once the commit has been pulled to the local repository, we can open up the file to confirm.
-{numref}`fetch_pull4`
+{numref}`fetch_pull4_VSC`
 
-```{figure} images/fetch_pull4.png
+```{figure} images/fetch_pull4_VSC.png
 ---
 width: 100%
 name: fetch_pull3

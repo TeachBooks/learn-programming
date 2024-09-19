@@ -26,7 +26,7 @@ commit on that branch. For example, the most recent commit on branch
 The graph in {numref}`branch1`
 below displays the current commit history we have.
 
-![Commit graph of our repository](../images/branch1.png)
+![Commit graph of our repository](./images/branch1.png)
 
 The main advantage of version control is that it allows developers to
 work together in parallel. During projects you will be working on
@@ -37,7 +37,7 @@ necessary. This separation offers flexibility, parallelization of work
 and offers more control over the development process (figure
 {numref}`branch2`).
 
-![Commit graph of a sample repository](../images/branch2.png)
+![Commit graph of a sample repository](./images/branch2.png)
 
 ## Creating a branch
 
@@ -47,7 +47,7 @@ First let us check on what branch we are currently at. Call the command
 reference="branch3"}). The green text shows what branch we are currently
 at.
 
-![Check existing branches](../images/branch3.png)
+![Check existing branches](./images/branch3.png)
 
 Remember how at the beginning of this tutorial we created branch main
 and checked-out to it? Let us create a new branch from main, which we
@@ -58,7 +58,7 @@ We can move to the newly created branch via
 `git checkout getting-started`. Call `git branch` again to verify that
 you have moved to a new branch (figure {numref}`branch4`).
 
-![Moving to branch `getting-started`](../images/branch4.png)
+![Moving to branch `getting-started`](./images/branch4.png)
 
 Let us modify our README.md file again and add a '\"Getting started\"
 section to it:
@@ -81,7 +81,7 @@ Last modification: 30.04.2022
 
 We will commit the new changes ({numref}`branch5`).
 
-![Committing new changes](../images/branch5.png)
+![Committing new changes](./images/branch5.png)
 
 Note: if you use `git add *`, you can stage all tracked files
 simultaneously. Be careful that you do not stage more files than you
@@ -102,7 +102,7 @@ you are using Linux or MacOS. Instead of executing this command, open
 any texteditor application and create an empty file with the name
 `new-file.txt`.
 
-![Committing new changes on `main` branch](../images/branch6.png)
+![Committing new changes on `main` branch](./images/branch6.png)
 
 We now have a commit, which is ahead of the branch `getting-started`.
 Call the following command to visualize the current repository graph
@@ -112,7 +112,7 @@ Call the following command to visualize the current repository graph
 git log --all --graph --decorate --oneline
 ```
 
-![Show commits graph](../images/branch7.png)
+![Show commits graph](./images/branch7.png)
 
 Before merging our progress from `getting-started`, it is advisable to
 merge `main` into it first. This is done because we regard `main` branch
@@ -137,17 +137,17 @@ then `x` to finish immediately the merge without changing the message.
 In case you get stuck, follow the guide in the following link:
 [https://phoenixnap.com/kb/how-to-exit-vim]( https://phoenixnap.com/kb/how-to-exit-vim)
 
-![Vim text editor for merging branches](../images/branch8.png)
+![Vim text editor for merging branches](./images/branch8.png)
 
 We can now inspect the graph again with the new changes. The progress of
 the other branch (`main`) has been moved to `getting-started` as seen in
 figure {numref}`branch9`.
 
-![New commits graph](../images/branch9.png)
+![New commits graph](./images/branch9.png)
 
 We will now return to `main` and merge `getting-started` into it:
 
-![Merging `getting-started` in `main`](../images/branch10.png)
+![Merging `getting-started` in `main`](./images/branch10.png)
 
 Note that this time we are not prompted to enter a commit message for
 our merge. Since git is a version control system and sees that there are
@@ -155,7 +155,7 @@ no new changes, it will simply move the pointer of branch `main` to the
 same commit the branch `getting-started` points:
 
 <figure id="branch11">
-<p><img src="../images/branch11.png" alt="image" /> caption<span>Commits
+<p><img src="./images/branch11.png" alt="image" /> caption<span>Commits
 graph showing a merge</span> <span id="branch11"
 label="branch11"></span></p>
 </figure>
@@ -169,7 +169,7 @@ commits made on it. It will only remove the pointer itself. Use
 `git branch -d getting-started` to delete the branch (figure
 {numref}`branch12`).
 
-![Deleting a branch](../images/branch12.png)
+![Deleting a branch](./images/branch12.png)
 
 ## Creating a branch from an arbitrary commit (Optional) 
 
@@ -182,13 +182,13 @@ commit with id `c2f912f`. Note that the id will be different on your
 machine. Therefore, replace this id with the id of the commit on your
 machine, which relates to "Fix date format" commit.
 
-![Checking out based on commit id](../images/branch13.png)
+![Checking out based on commit id](./images/branch13.png)
 
 Next, we can create a new branch from there. Alternatively, one can also
 follow the instructions provided by git in figure
 {numref}`branch13`.
 
-![Creating a new branch](../images/branch14.png)
+![Creating a new branch](./images/branch14.png)
 
 In figure {numref}`branch14`,
 you can now see that we have successfully created a new branch from the

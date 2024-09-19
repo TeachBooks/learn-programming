@@ -4,34 +4,34 @@ This page will show you how to use Source Control in VS Code to **clone** a repo
 
 ## Opening the Source Control tab in VS Code
 
-Upon opening VS Code, we see that the first thing that is needed is to clone a repository ({numref}`clone1`). First, we have to get the address from our GitHub account.
+Upon opening VS Code, we see that the first thing that is needed is to clone a repository ({numref}`clone1_VSC`). First, we have to get the address from our GitHub account.
 
 ```{figure} images/clone1.png
 ---
 width: 80%
-name: clone1
+name: clone1_VSC
 ---
 Opening the VS Code Source Control tab for the first time--we need to clone a repository.
 ```
 
-Visit the repository you would like to clone to your computer on GitHub. As illustrated in {numref}`clone2`, you can see a bright green button "Clone" on the home page of the repository.
+Visit the repository you would like to clone to your computer on GitHub. As illustrated in {numref}`clone2_VSC`, you can see a bright green button "Clone" on the home page of the repository.
 
 ```{figure} images/clone2.png
 ---
 width: 80%
-name: clone2
+name: clone2_VSC
 ---
 Home page of the repository in GitHub; note the "Clone" button.
 ```
 
 ## Get the SSH address
 
-To clone the repository, we need the address--its location on the internet. There are several ways to do this, but the most secure is using SSH. As illustrated in {numref}`clone3`, under "Clone with SSH," click the icon to copy the URL to your clipboard, then go back to VS Code.
+To clone the repository, we need the address--its location on the internet. There are several ways to do this, but the most secure is using SSH. As illustrated in {numref}`clone3_VSC`, under "Clone with SSH," click the icon to copy the URL to your clipboard, then go back to VS Code.
 
 ```{figure} images/clone3.png
 ---
 width: 40%
-name: clone3
+name: clone3_VSC
 ---
 Copy SSH address of repository to your clipboard.
 ```
@@ -39,12 +39,12 @@ Copy SSH address of repository to your clipboard.
 % Mona stopped here
 ## Set the local path
 
-Now you are ready to click the "Clone Repository" option in the Source Control tab of VS Code ({numref}`clone1`). Paste the address you copied from GitHub into the top bar and press 'enter' (as shown in {numref}`clone4`). Then select the folder or location on your local machine where you would like the _local repository_ to be stored ({numref}`clone5`).
+Now you are ready to click the "Clone Repository" option in the Source Control tab of VS Code ({numref}`clone1`). Paste the address you copied from GitHub into the top bar and press 'enter' (as shown in {numref}`clone4_VSC`). Then select the folder or location on your local machine where you would like the _local repository_ to be stored ({numref}`clone5_VSC`).
 
 ```{figure} images/clone4.png
 ---
 width: 80%
-name: clone4
+name: clone4_VSC
 ---
 Enter the URL from GitHub and press 'enter'.
 ```
@@ -52,12 +52,12 @@ Enter the URL from GitHub and press 'enter'.
 ```{figure} images/clone5.png
 ---
 width: 80%
-name: clone5
+name: clone5_VSC
 ---
 Browse to the location you want to store the _local repository_.
 ```
 
-As you can see in {numref}`clone5`, we have chosen to put the cloned repository in a directory in the place where we store all code, `code\MUDE`. You don't need to create a new folder for the repository (e.g., `pa-1-3-monadevos` in this example) because the process of cloning a repository will do that automatically. 
+As you can see in {numref}`clone5_VSC`, we have chosen to put the cloned repository in a directory in the place where we store all code, `code\MUDE`. You don't need to create a new folder for the repository (e.g., `pa-1-3-monadevos` in this example) because the process of cloning a repository will do that automatically. 
 
 `````{admonition} Where to put your local repositories
 
@@ -88,7 +88,7 @@ If you were not successful in creating an SSH key and linking it to your GitHub 
 ```{figure} images/clone6.png
 ---
 width: 80%
-name: clone6
+name: clone6_VSC
 ---
 Error message due to failed SSH setup.
 ```
@@ -101,7 +101,7 @@ If you were successful in cloning the repository, you will see something similar
 ```{figure} images/clone7.png
 ---
 width: 80%
-name: clone7
+name: clone7_VSC
 ---
 View of the local repository, successfully cloned from the remote on GitLab.
 ```

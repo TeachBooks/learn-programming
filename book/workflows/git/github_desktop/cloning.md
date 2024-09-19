@@ -8,13 +8,13 @@ In practice we refer to the repository stored on our computer as the **local rep
 
 The repository on GitLab is our **remote repository.** This can be considered the backup of the files in our repository. When working with multiple people, it can also be considered the most current version of the project. For example, you may be working on improving the plots in your assignment, whereas a colleague is updating the Pyhton script running your model. You will use the _local repository_ to develop your particular task, and the _remote repository_ to collect everyone elses work and deploy it to your local computer (if you need to use it there).
 
-Note that in MUDE, we will use the _remote repositories_ on GitLab to share files with you. After completing this page, you will be able to **clone** the remote repository to your computer with the click of a button. Later pages will show you how to **push** your _local_ changes back to the _remote_, which is how you will submit your assignments for grading.
+After completing this page, you will be able to **clone** the remote repository to your computer with the click of a button. Later pages will show you how to **push** your _local_ changes back to the _remote_, which is how you will submit your assignments for grading.
 
 ## Opening the GitHub GUI
 
 Upon opening the GUI software, we see that the first thing that is needed is to add a repository ({numref}`clone1`). We will use the "from the internet" option, but before we do that, we have to get the address from our GitLab account.
 
-```{figure} ../images_gui/clone1.JPG
+```{figure} ./images/clone1.JPG
 ---
 width: 80%
 name: clone1
@@ -24,7 +24,7 @@ Opening the GitHub GUI for the first time--we need to add a repository.
 
 Visit the repository you would like to clone to your computer on GitLab. As illustrated in {numref}`clone5`, you can see a bright blue button "Clone" on the home page of the repostory.
 
-```{figure} ../images_gui/clone5.JPG
+```{figure} ./images/clone5.JPG
 ---
 width: 80%
 name: clone5
@@ -36,7 +36,7 @@ Home page of the repository; note the "Clone" button.
 
 To clone the repository, we need the address--its location on the internet. There are several ways to do this, but the most secure is using SSH. As illustrated in {numref}`clone6`, under "Clone with SSH," click the icon to copy the URL to your clipboard, then go back to the GitHub GUI.
 
-```{figure} ../images_gui/clone6.JPG
+```{figure} ./images/clone6.JPG
 ---
 width: 40%
 name: clone6
@@ -48,7 +48,7 @@ Copy SSH address of repository to your clipboard.
 
 Now you are ready to click the "Clone a repository from the Internet" option in the GUI ({numref}`clone1`), which will open a window asking you to enter the address of the _remote repository_, after selecting the "URL" tab ({numref}`clone3`). Paste the address you copied from GitLab into the first field (the URL). Then select the location where you would like the _local repository_ to be located, the "Local path." 
 
-```{figure} ../images_gui/clone3.JPG
+```{figure} ./images/clone3.JPG
 ---
 width: 70%
 name: clone3
@@ -64,11 +64,11 @@ As you can see in {numref}`clone3`, we have chosen to put the MUDE directory in 
 We strongly encourage you follow these pieces of advice:
 1. **Do not** store your local repositories in a location that is backed up using cloud software (e.g., OneDrive, Dropbox, etc). This often interferes with the functioning of git. Instead, we will push to the _remote repositories_ to backup our work.
 2. **Do not** store your local repositories in locations with spaces in the file path, especially on Windows. While there are ways to deal with this if it happens, you will save yourself trouble down the line if you avoid using spaces in your folder and file names.
-3. **Do** store your local repositories for MUDE in an organized way. We advise creating a `MUDE` directory, where each of the sub-directories would be a local git repository. Here is an illustrationg of such a structure for your working directories:
+3. **Do** store your local repositories for your proejct in an organized way. We advise creating a main directory, where each of the sub-directories would be a local git repository. Here is an illustrationg of such a structure for your working directories:
 
 ```
 .
-├── MUDE
+├── coding_projects
 │   ├── Project_1
 |   ├── ...
 |   ├── Week_1_1
@@ -78,7 +78,6 @@ We strongly encourage you follow these pieces of advice:
 │       └── ...
 │   └── ...
 ```
-Adopting this structure will make it very easy for you to submit assignments for MUDE.
 `````
 
 ## Creating the clone
@@ -87,19 +86,19 @@ At this point you can create the local repository by clicking "Clone," which wil
 
 `````{note}
 If you were not successful in creating an SSH key and linking it to your GitLab account, this is when you will find out, as a message like this will appear:
-```{figure} ../images_gui/clone4.JPG
+```{figure} ./images/clone4.JPG
 ---
 width: 60%
 name: clone4
 ---
 Error message due to failed SSH setup.
 ```
-If this happens, go back to the [SSH setup instructions](https://mude.citg.tudelft.nl/software/git_install/#authentication-with-ssh)
+If this happens, go back to the [SSH setup instructions](../../../install/git/intro.md)
 `````
 
 If you were successful in cloning the repository, you will see something similar to {numref}`clone7`. Now we are ready to work on the files and preserve the changes by making our first local **commit**!
 
-```{figure} ../images_gui/clone7.JPG
+```{figure} ./images/clone7.JPG
 ---
 width: 80%
 name: clone7
