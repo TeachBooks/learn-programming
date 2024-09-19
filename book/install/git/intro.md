@@ -11,7 +11,7 @@
     2.  From the dropdown menu, "Choosing the default editor used by
         Git", select "Use Notepad as Git's default editor" and click on "Next". (Note: as long as you know how to use it, you can choose any other editor from the list)
     3.  On the page that says "Adjusting the name of the initial branch
-        in new repositories", select "Override the default..." and type `main` in the box. In addition to being more inclusive, this will make things more compatible with our TU Delft GitLab setup.
+        in new repositories", select "Override the default..." and type `main` in the box. In addition to being more inclusive, this will make things more compatible with our TU Delft GitLab setup and GitHub.
     4.  Ensure that "Git from the command line and also from 3rd-party
         software" is selected and click on "Next". (If you don't do
         this Git Bash will not work properly, requiring you to remove
