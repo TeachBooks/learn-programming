@@ -110,7 +110,7 @@ You can also refer to the [GitHub Documentation](https://docs.github.com/en/auth
 
     ```{figure} figures/add_key.png
     ---
-    height: 400px
+    width: 100%
     name: add_key
     ---
     Add SSH Key to GitHub Account.

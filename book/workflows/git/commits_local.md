@@ -4,7 +4,7 @@ Now that we have learned how to clone a repository, we will find out how to make
 
 % not sure if this note is necessary, and thus if i should put my own name and repo
 ```{note}
-The examples in this page will be illustrated using an arbitrary public repository set up a MUDE TA on GitHub called [sandbox-public](https://github.com/monadevos/sandbox-public/). You can follow along by creating your own repository in your GitHub, then cloning it to your computer (i.e., making a _local_ repository, as we learned in the previous section).
+The examples in this page will be illustrated using an arbitrary public repository set up by a MUDE TA on GitHub called [sandbox-public](https://github.com/monadevos/sandbox-public/). You can follow along by creating your own repository in your GitHub, then cloning it to your computer (i.e., making a _local_ repository, as we learned in the previous section).
 
 If you create your own repository, keep the box checked to initialize with a `README.md` file, which will look identical to that in the examples below.
 ```
@@ -117,7 +117,7 @@ In addition, we can check the remote repository directly. Visiting the [home pag
 
 ```{figure} images/commit8.png
 ---
-width: 80%
+width: 100%
 name: commit8
 ---
 View of remote repository (origin) on GitHub just after pushing, illustrating changes.
