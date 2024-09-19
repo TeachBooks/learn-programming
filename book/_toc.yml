@@ -58,12 +58,12 @@ parts:
       - file: workflows/git/intro.md
         title: Git workflows
         sections:
+        - file: workflows/git/commits_remote.md
+          title: Remote Commits
         - file: workflows/git/cloning.md
           title: Cloning
         - file: workflows/git/commits_local.md
           title: Local Commits
-        - file: workflows/git/commits_remote.md
-          title: Remote Commits
         - file: workflows/git/fetch_pull.md
           title: Fetch and Pull
   - caption: MUDE Year 2
