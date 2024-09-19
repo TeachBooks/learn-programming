@@ -94,12 +94,12 @@ Origin is the name git uses to identify the original _remote repository_ where o
 
 ## A closer look at our commits
 
-Now that we have pushed to origin, it is easy to confirm that things worked. First, we can see that in VS Code Source Control once again shows no changes, as in {numref}`clone7`.
+Now that we have pushed to origin, it is easy to confirm that things worked. First, we can see that in VS Code Source Control once again shows no changes, as in {numref}`commit7`.
 
 ```{figure} images/commit7.png
 ---
 width: 80%
-name: clone7
+name: commit7
 ---
 View of VS Code Source Control with no local changes.
 ```
