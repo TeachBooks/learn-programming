@@ -143,7 +143,7 @@ Pushing the new changes
 
 On the GitLab webpage, we can verify the change has been pushed ({numref}`push5`).
 
-```{figure} ../images/push5.png
+```{figure} ./images/push5.png
 ---
 height: 200px
 name: push5

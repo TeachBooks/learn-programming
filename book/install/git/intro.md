@@ -142,12 +142,12 @@ git config --global user.name "Kiril Vasilev"
 git config --global user.email "k.v.vasilev-1@student.tudelft.nl"
 ```
 
-Console example in {numref}`setup1`:
+Console example in {numref}`setup1_2`:
 
 ```{figure} ./figures/setup1.png
 ---
 width: 100%
-name: setup1
+name: setup1_2
 ---
 Setting up name and email to use for git
 ```

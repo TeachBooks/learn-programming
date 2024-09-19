@@ -52,10 +52,10 @@ Check the new changes and pull the commits to the local repository
 Once the commit has been pulled to the local repository, we can open up the file to confirm.
 {numref}`fetch_pull4_VSC`
 
-```{figure} images/fetch_pull4_VSC.png
+```{figure} images/fetch_pull4.png
 ---
 width: 100%
-name: fetch_pull3
+name: fetch_pull4_VSC
 ---
 Local file `README.md` has the changes made with the Web IDE commit on the remote repository.
 ```
