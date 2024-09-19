@@ -11,8 +11,7 @@ The repository on GitHub is our **remote repository.** This can be considered th
 The sections within this chapter cover the following concepts:
 1. Making commits to the remote repository using the online GitHub IDE
 2. Cloning a remote repository from your TU Delft GitHub
-3. Making commits to the local repository
-4. Pushing your commits back to the remote repository
+3. Making commits to the local repository and Pushing your commits back to the remote repository
 5. Fetching and pulling commits from the remote repository to your local repository
 
 ```{note}

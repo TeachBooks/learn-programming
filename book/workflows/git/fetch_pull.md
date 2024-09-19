@@ -18,7 +18,9 @@ It is good practice to make it a habit of fetching first, then pulling once you 
 
 ## Fetch-pull from remote
 
-The GitHub GUI makes this process very easy. Start by clicking the "Fetch origin" button, circled in red in {numref}`fetch_pull1`.
+Let's first make a commit to the remote repository as explained in [the first chapter](commits_remote.md)
+
+Now we can include the commit in our local repository too. The GitHub GUI makes this process very easy. Start by clicking the "Fetch origin" button, circled in red in {numref}`fetch_pull1`.
 
 ```{figure} ../images_gui/fetch_pull1.JPG
 ---
