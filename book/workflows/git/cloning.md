@@ -4,7 +4,7 @@ This page will show you how to use Source Control in VS Code to **clone** a repo
 
 Creating several clones of a repository allows us to also provide a backup of our files (and their history) in case we lose access to the originals (perhaps your computer breaks, or is stolen). It is a great idea to have a copy of the repository in the cloud, which automatically provides a very reliable file storage location. This is one of the key services that companies like GitLab and GitHub provide. 
 
-In practice we refer to the repository stored on our computer as the **local repository.** This is where we typically spend most of our time working on our code, debugging it and running analysis. It is where you will be spending most of your time working on your MUDE assignments.
+In practice we refer to the repository stored on our computer as the **local repository.** This is where we typically spend most of our time working on our code, debugging it and running analysis.
 
 % Not sure about the collaboration notes in this part, since i guess they will be using Live Share and then only one person pushes to the remote repo?
 The repository on GitHub is our **remote repository.** This can be considered the backup of the files in our repository. When working with multiple people, it can also be considered the most current version of the project. For example, you may be working on improving the plots in your assignment, whereas a colleague is updating the Python script running your model. You will use the _local repository_ to develop your particular task, and the _remote repository_ to collect everyone elses work and deploy it to your local computer (if you need to use it there).
