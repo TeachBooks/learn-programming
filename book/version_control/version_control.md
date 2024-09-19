@@ -9,22 +9,9 @@ In a nutshell, **version control** is a process that is concerned with the manag
 ## What is Version Control?
 
 
-While working on personal or university projects, without a doubt you
-have come across the following situation: You have finished drafting a
-report and believe you are done with it and save the file as
-"report.doc". However, later you decide to experiment and make some
-changes, but you still want to keep your old working version, so you
-make a new file called "report-final.doc". Now imagine that you send the
-file to a friend of yours to proofread and make some comments on it and
-they send it back. Next, you incorporate their feedback and end up
-naming the new one "report-final-2.doc".
+While working on personal or university projects, without a doubt you have come across the following situation: You have finished drafting a report and believe you are done with it and save the file as `report.doc`. However, later you decide to experiment and make some changes, but you still want to keep your old working version, so you make a new file called `report-final.doc`. Now imagine that you send the file to a friend of yours to proofread and make some comments on it and they send it back. Next, you incorporate their feedback and end up naming the new one `report-final-2.doc`.
 
-What you have been doing is called version control. Version control
-systems start with a base version of the document and then record
-changes you make each step of the way. You can think of it as a
-recording of your progress: you can rewind to start at the base document
-and play back each change you made, eventually arriving at your most
-recent version, as shown in figure {numref}`intro1`:
+What you have been doing is called version control. Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your most recent version, as shown in figure {numref}`intro1`:
 
 ```{figure} images/intro1.png
 ---
@@ -34,11 +21,7 @@ name: intro1
 Consecutive file changes
 ```
 
-Once you think of changes as separate from the document itself, you can
-then think about "playing back" different sets of changes on the base
-document, resulting in different versions of that document. For example,
-two users can make independent sets of changes on the same document,
-resulting in 2 independent versions ({numref}`intro2`).
+Once you think of changes as separate from the document itself, you can then think about "playing back" different sets of changes on the base document, resulting in different versions of that document. For example, two users can make independent sets of changes on the same document, resulting in 2 independent versions ({numref}`intro2`).
 
 ```{figure} images/intro2.png
 ---
@@ -48,9 +31,7 @@ name: intro2
 Parallel file changes
 ```
 
-Unless multiple users make changes to the same section of the document -
-a conflict - you can incorporate two sets of changes into the same base
-document ({numref}`intro3`).
+Unless multiple users make changes to the same section of the document - a conflict - you can incorporate two sets of changes into the same base document ({numref}`intro3`).
 
 ```{figure} images/intro3.png
 ---
@@ -82,7 +63,7 @@ If you tried opening up a notebook in the text editor you would have noticed a s
 
 ## A different way of thinking?
 
-As you will see in the following chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive or Dropbox. All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to comptuer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
+As you will see in the other chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive, Dropbox or even [Visual Studio Code Share](../install/ide/vsc.md). All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to computer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
 
 `````{admonition} Tip
 :class: tip
@@ -101,16 +82,16 @@ Note that while git is free and can be used on a variety of operating systems, t
 
 **What is GitLab?**
 
-GitLab is a cloud-based version control system built around git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers---this means that all of the files are stored digitally on the TU Delft campus. This is also why we have our "own" GitLab located at `gitlab.tudelft.nl`, rather than the "normal" GitLab at `gitlab.com`, and is also something you will have access to throughout your studies.
+GitLab is a cloud-based version control system built around git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers---this means that all of the files are stored digitally on the TU Delft campus. This is also why TU Delft has their our "own" GitLab located at `gitlab.tudelft.nl`, rather than the "normal" GitLab at `gitlab.com`, and is also something you will have access to throughout your studies.
 
 **What is GitHub?**
 
-GitHub is a competitor company to GitLab. It provides very similar services, but they are often called different names, or have slightly different features. Although we will not be using it directly, GitHub provides a free software that is very useful: **GitHub Desktop**!
+GitHub is a competitor company to GitLab. It provides very similar services, but they are often called different names, or have slightly different features. Although we will not be using it directly, GitHub provides a free software that is very useful: **GitHub Desktop**! This software allows you to interact in a nice graphical interface with the version control of your files. An alternative is the [Git functionality in VS Code](../workflows/git/intro.md)
 
 
 ## Main concepts and terminology
 
-Here we present a list of the terminology we may use when referring to VCS. Do not panic if you do not understand what each of the following means. Later, we will provide a more elaborate explanation with examples. Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
+Here we present a list of the terminology we may use when referring to version control systems (VCS). Do not panic if you do not understand what each of the following means. Later, we will provide a more elaborate explanation with examples. Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
 
 1. **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
 1. **Remote (of repository):** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the Gitlab repository as a *remote*.
