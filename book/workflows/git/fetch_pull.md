@@ -20,37 +20,44 @@ It is good practice to make it a habit of fetching first, then pulling once you 
 
 Let's first make a commit to the remote repository as explained in [the first chapter](commits_remote.md)
 
-Now we can include the commit in our local repository too. The GitHub GUI makes this process very easy. Start by clicking the "Fetch origin" button, circled in red in {numref}`fetch_pull1`.
+Now we can include the commit in our local repository that we have open in VS Code. We can either right-click on the three dots next to "SOURCE CONTROL" and "Fetch" ({numref}`fetch_pull1`) or click on the little "Fetch" icon next to "SOURCE CONTROL GRAPH".
 
-```{figure} ../images_gui/fetch_pull1.JPG
+```{figure} images/fetch_pull1.png
 ---
-width: 80%
+width: 40%
 name: fetch_pull1
 ---
-No local changes, with indication of how to fetch from remote.
+How to fetch from remote, option 1.
 ```
-
-Since a commit has been made to the remote repository, we can see now that the GUI tells us ({numref}`fetch_pull2`). It also is quite obvious how we can integrate this into our local repository with the "Pull origin" button.
-
-```{figure} ../images_gui/fetch_pull2.JPG
+```{figure} images/fetch_pull2.png
 ---
-width: 80%
+width: 40%
 name: fetch_pull2
 ---
-Still no local changes, but we can see that there is a new commit on remote available to pull to the local repository.
+How to fetch from remote, option 2.
+```
+
+As you can see in ({numref}`fetch_pull3`), under the Source Control Graph we can now see the new commits that have been made (purple) and we can click on one to see the specific changes that have been made. We can now pull all the new commits to our local repository by clicking "Sync Changes".
+
+```{figure} images/fetch_pull3.png
+---
+width: 100%
+name: fetch_pull3
+---
+Check the new changes and pull the commits to the local repository
 ```
 
 ## Confirm local changes
 
-Once the commit has been pulled to the local repository, we can open up the file in our text editor to confirm.
-{numref}`fetch_pull3`
+Once the commit has been pulled to the local repository, we can open up the file to confirm.
+{numref}`fetch_pull4`
 
-```{figure} ../images_gui/fetch_pull3.JPG
+```{figure} images/fetch_pull4.png
 ---
-width: 80%
+width: 100%
 name: fetch_pull3
 ---
 Local file `README.md` has the changes made with the Web IDE commit on the remote repository.
 ```
 
-It's the commit we made on the remote repository!
+It's the commits we made on the remote repository!
