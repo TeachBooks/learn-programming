@@ -130,3 +130,26 @@ You can also refer to the [GitHub Documentation](https://docs.github.com/en/auth
     Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
+### Setting up Git
+
+
+Before we start, we first need to locally set up the git environment, so that when we make changes, we can be identified as the author of those commits. Open git-bash on your computer and type the following lines in the command line interface and use your name and email address between the quotation marks.
+
+If you will be uploading your progress on a university instance of GitHub/GitLab, it is recommended to use your student email when committing.
+
+```
+git config --global user.name "Kiril Vasilev"
+git config --global user.email "k.v.vasilev-1@student.tudelft.nl"
+```
+
+Console example in {numref}`setup1`:
+
+```{figure} ./figures/setup1.png
+---
+width: 100%
+name: setup1
+---
+Setting up name and email to use for git
+```
+
+Note that in the commands above you **do not need** to type the `$` sign.
