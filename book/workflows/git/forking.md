@@ -11,7 +11,7 @@ To fork a repository, follow these steps:
 
 ![Forking a repository](./images/fork1.png)
 
-This will create a copy of the repository under your GitHub account. You can now clone this forked repository to your local machine and make changes as you would with any other repository.
+This will create a copy of the repository under your GitHub account. If you want, you can now clone this forked repository to your local machine and make changes as you would with any other repository.
 
 ## Contributing Back to the Original Repository
 
