@@ -26,7 +26,7 @@ We can move to the newly created branch by selecting it from the branch dropdown
 
 ![Moving to branch `first-branch`](./images/branch4.png)
 
-Let us modify our `README.md` file again and add a "Getting started" section to it. Navigate to the `README.md` file, click the pencil icon to edit it, and add your content to the first line:
+Let us modify our `README.md` file again and add a sentence to the first line of it. Navigate to the `README.md` file, click the pencil icon to edit it, and add your content to the first line:
 
 ```
 Now I've edited this file on the `first-branch`-branch.
