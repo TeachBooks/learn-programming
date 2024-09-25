@@ -20,7 +20,7 @@ First, let us check on what branch we are currently at. On GitHub, navigate to y
 
 ![Check existing branches](./images/branch3.png)
 
-Let us create a new branch from `main` on GitHub, which we will call `first-branch`. Click on the "Branch: main" dropdown, type `first-branch` in the text box, and click "Create branch: first-branch".
+Let us create a new branch from `main` on GitHub, which we will call `first-branch`. Click on the "Branch: main" dropdown, type `first-branch` in the text box, and click "Create branch: first-branch from main".
 
 We can move to the newly created branch by selecting it from the branch dropdown.
 
@@ -42,17 +42,19 @@ Note that when we switch to `main`, the `README.md` file does not contain the ch
 
 Before merging our progress from `first-branch`, it is advisable to merge `main` into it first. This is done because we regard the `main` branch as the "face" of our project. When somebody is looking at our repository, they are likely to check the things on `main` first. Moreover, if there are any bugs from merging, it is better to resolve them on our separate branch. Sometimes it happens that after merging your progress to the `main` branch, the code on the `main` branch is no longer working correctly.
 
-Therefore, we will first go back to our branch `first-branch`. Note that the edit we made is no longer visible. Let's add a commit here too to `README.md` at the last line:
+Therefore, we will first go back to our branch `main`. Note that the edit we made is no longer visible. Let's add a commit here too to `README.md` at the last line:
 
 ```
 And now I've edited this file on the `main`-branch.
 ```
 
-We can merge the `main` branch into `first-branch` by creating a pull request. On GitHub, go to the "Pull requests" tab, click "New pull request", select `main` as the base branch and `first-branch` as the compare branch, and click "Create pull request".
+We can merge the `main` branch into `first-branch` by creating a pull request. On GitHub, go to the "Pull requests" tab, click "New pull request", select `first-branch` as the base branch and `main` as the compare branch, and click "Create pull request". We can check (as shown below) that there are no conflicts and then we click "Merge pull request" to merge `main` into `first-branch`. 
 
-We can now inspect the graph again with the new changes. The progress of the other branch (`main`) has been moved to `first-branch` as seen below.
+![Pull request](./images/branch6.png)
 
-![New commits graph](./images/branch9.png)
+We can now inspect the README.md again with the new changes. The progress of the other branch (`main`) has been moved to `first-branch` as seen below.
+
+![New commits graph](./images/branch7.png)
 
 We will now return to `main` and merge `first-branch` into it with another pull request. Follow the same steps as before, but this time select `first-branch` as the compare branch and `main` as the base branch.
 
