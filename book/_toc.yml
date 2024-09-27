@@ -2,7 +2,7 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Theory
     chapters:
     - file: computers
       title: Computers
@@ -16,72 +16,69 @@ parts:
       - file: environments/venv
         title: venv (Python)
     - file: version_control/version_control
-    - file: install
-      title: Software Installation
+  - caption: Installation
+    - file: install/common
+      title: Common Topics
       sections:
-      - file: install/common
-        title: Common Topics
-        sections:
-        - file: install/common/hidden
-          title: Hidden Files
-        - file: install/common/cli
-          title: Command Line Interface (CLI)
-        - file: install/common/env_vars_windows
-          title: Environment Variables (Windows)
-      - file: install/python
-        title: Python
-        sections:
-        - file: install/python/miniconda
-          title: Miniconda
-        - file: install/python/anaconda
-          title: Anaconda
-        - file: install/python/direct
-          title: Direct Installation
-      - file: install/ide
-        title: Integrated Development Environments
-        sections:
-        - file: install/ide/vsc
-          title: Visual Studio 
-          sections:
-          - file: install/ide/vsc/extensions
-            title: Extensions
-          - file: install/ide/vsc/git
-            title: Git Integration
-          - file: install/ide/vsc/vs_live_share
-      - file: install/git/intro.md
-    - file: workflows
-      title: Software Workflows
+      - file: install/common/hidden
+        title: Hidden Files
+      - file: install/common/cli
+        title: Command Line Interface (CLI)
+      - file: install/common/env_vars_windows
+        title: Environment Variables (Windows)
+    - file: install/python
+      title: Python
       sections:
-      - file: workflows/jupyter-lab
-        title: Jupyter Lab
-      - file: workflows/git/intro.md
+      - file: install/python/miniconda
+        title: Miniconda
+      - file: install/python/anaconda
+        title: Anaconda
+      - file: install/python/direct
+        title: Direct Installation
+    - file: install/ide
+      title: Integrated Development Environments
+      sections:
+      - file: install/ide/vsc
+        title: Visual Studio 
         sections:
-        - file: workflows/git/github
-          sections:
-          - file: workflows/git/commits_remote.md
-            title: Remote Commits
-        - file: workflows/git/vscode
-          sections:
-          - file: workflows/git/cloning.md
-            title: Cloning
-          - file: workflows/git/commits_local.md
-            title: Local Commits
-          - file: workflows/git/fetch_pull.md
-            title: Fetch and Pull
-        - file: workflows/git/github_desktop/github_desktop_gitlab
-          sections:
-          - file: workflows/git/github_desktop/cloning
-          - file: workflows/git/github_desktop/commits_local
-          - file: workflows/git/github_desktop/commits_remote
-          - file: workflows/git/github_desktop/fetch_pull
-          - file: workflows/git/github_desktop/pushing_problems
-        - file: workflows/git/cli/cli
-          sections:
-          - file: workflows/git/cli/getting_started
-          - file: workflows/git/cli/remote
-          - file: workflows/git/cli/branch_merge
-          - file: workflows/git/cli/merge_conflicts
-          - file: workflows/git/cli/git_the_rest
+        - file: install/ide/vsc/extensions
+          title: Extensions
+        - file: install/ide/vsc/git
+          title: Git Integration
+        - file: install/ide/vsc/vs_live_share
+    - file: install/git/intro.md
+  - caption: Workflows
+    chapters:
+    - file: workflows/jupyter-lab
+      title: Jupyter Lab
+    - file: workflows/git/intro.md
+      sections:
+      - file: workflows/git/github
+        sections:
+        - file: workflows/git/commits_remote.md
+          title: Remote Commits
+      - file: workflows/git/vscode
+        sections:
+        - file: workflows/git/cloning.md
+          title: Cloning
+        - file: workflows/git/commits_local.md
+          title: Local Commits
+        - file: workflows/git/fetch_pull.md
+          title: Fetch and Pull
+      - file: workflows/git/github_desktop/github_desktop_gitlab
+        sections:
+        - file: workflows/git/github_desktop/cloning
+        - file: workflows/git/github_desktop/commits_local
+        - file: workflows/git/github_desktop/commits_remote
+        - file: workflows/git/github_desktop/fetch_pull
+        - file: workflows/git/github_desktop/pushing_problems
+      - file: workflows/git/cli/cli
+        sections:
+        - file: workflows/git/cli/getting_started
+        - file: workflows/git/cli/remote
+        - file: workflows/git/cli/branch_merge
+        - file: workflows/git/cli/merge_conflicts
+        - file: workflows/git/cli/git_the_rest
   - caption: Miscellaneous
     chapters:
     - file: references.md
