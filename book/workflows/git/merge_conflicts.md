@@ -32,7 +32,7 @@ The changes on the current branch are preceded by `<<<<<<< HEAD`, while the chan
 ![Resolving conflict](./images/mconflict4.png)
 ![Completing the merge](./images/mconflict5.png)
 
-### Why Merge into the conflicting branch First?
+### Why Merge into the conflicting branch first?
 
 Merging into the conflicting branch first allows you to resolve conflicts in a controlled environment. Here are some reasons why this approach is beneficial:
 
