@@ -17,6 +17,7 @@ parts:
         title: venv (Python)
     - file: version_control/version_control
   - caption: Installation
+    chapters:
     - file: install/common
       title: Common Topics
       sections:
