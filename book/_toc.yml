@@ -4,7 +4,6 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: references.md
     - file: computers
       title: Computers
     - file: environments
@@ -83,4 +82,6 @@ parts:
           - file: workflows/git/cli/branch_merge
           - file: workflows/git/cli/merge_conflicts
           - file: workflows/git/cli/git_the_rest
-          
+  - caption: Miscellaneous
+    chapters:
+    - file: references.md
