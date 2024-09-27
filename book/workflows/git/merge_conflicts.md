@@ -5,7 +5,7 @@ Merge conflicts arise when people on separate branches modify the same parts of 
 
 Let us create a merge conflict ourselves:
 
-We will start by making a new branch `conflicting-instructions` on GitHub. We will edit the `README.md` file on the last line, and create a pull request as shown below.
+We will start by making a new branch `conflicting-instructions` on GitHub. We will edit the `README.md` file on the last line
 
 ```
 ...
@@ -15,7 +15,7 @@ And now I've edited this file on the `main`-branch. **I've added some text to th
 
 ![Creating a pull request](./images/mconflict2.png)
 
-Next, we will return to the `main` branch on GitHub. We will edit the same line of the markdown file with some other text and create another pull request.
+Next, we will return to the `main` branch on GitHub. We will edit the same line of the markdown file with some other text:
 
 ```
 ...
