@@ -21,10 +21,15 @@ If you want, you can now clone this forked repository to your local machine and 
 
 ## Contributing Back to the original repository
 
-Once you have made changes to your forked repository, you can contribute back to the original repository by creating a pull request. The process is similar to merging branches within a repository:
+Once you have made changes to your forked repository, you can contribute back to the original repository by creating a pull request. Make sure to push any changes from your local repository to your Git repository! The process is similar to merging branches within a repository:
 
 1. Make some changes to your forked repository
-2. Create a new pull request
+2. Select 'Contribute'
+3. Create a new pull request
+
+
+![Forking a repository](./images/contribute.png)
+
 3. Select the branch of the original repository to the original repository to which you want to contribute back
 
 ![Creating a pull request](./images/fork2.png)
