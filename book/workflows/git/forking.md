@@ -11,22 +11,26 @@ To fork a repository, follow these steps:
 
 ![Forking a repository](./images/fork1.png)
 
-This will create a copy of the repository under your GitHub account. If you want, you can now clone this forked repository to your local machine and make changes as you would with any other repository.
+This will create a copy of the repository under your GitHub account.
 
-## Contributing Back to the Original Repository
+3. Add the repo under your own account:
+
+![Forking a repository](./images/fork1-2.png)
+
+If you want, you can now clone this forked repository to your local machine and make changes as you would with any other repository.
+
+## Contributing Back to the original repository
 
 Once you have made changes to your forked repository, you can contribute back to the original repository by creating a pull request. The process is similar to merging branches within a repository:
 
 1. Make some changes to your forked repository
-2. Navigate to the original repository on GitHub.
-3. Click the "New pull request" button.
+2. Create a new pull request
+3. Select the branch of the original repository to the original repository to which you want to contribute back
 
-![Creating a pull request](./images/pull_request1.png)
+![Creating a pull request](./images/fork2.png)
 
 4. Select the branch from your forked repository that contains your changes.
 5. Provide a title and description for your pull request, then click "Create pull request".
-
-![Submitting a pull request](./images/pull_request2.png)
 
 The maintainers of the original repository will review your pull request. If they approve it, your changes will be merged into the original repository.
 
