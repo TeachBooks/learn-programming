@@ -1,4 +1,4 @@
-# Install git
+# Git
 
 `````{tab-set}
 ````{tab-item} Windows
