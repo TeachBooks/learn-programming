@@ -2,7 +2,7 @@
 # Environment Variables
 
 ```{note}
-This is for Windows Operating Systems only.
+This is for Windows Operating Systems only. It is often required when installing command line tools, for example `conda`.
 ```
 
 Your computer has _environment variables_ which define the behavior of your operating system. For example, one commonly used variable is `PATH`, which helps your computer locate key files, especially when using a CLI.
