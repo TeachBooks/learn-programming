@@ -26,7 +26,7 @@ This book is created using open source tools: it is a Jupyter Book that is writt
 
 Robert Lanzafame is a Senior Lecturer at Delft University of Technology in the Netherlands. He enjoys teaching and finding new ways to incorporate digital tools in engineering education, including making online interactive textbooks like this one together with colleagues. For more about Robert, visit his [TU Delft page](https://www.tudelft.nl/en/staff/r.c.lanzafame/).
 
-Tom van Woudenberg
+Tom van Woudenberg is a lecturer at Delft University of Technology. Equiped with a dedication to education in structural mechanics, I strive to cultivate a blended learning environment that engages students actively and rewards their efforts. for more about Tom, visit his [TU Delft page](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/).
 
 %### Acknowledgements
 
