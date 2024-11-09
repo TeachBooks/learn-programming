@@ -5,10 +5,6 @@ You can refer to this book as:
 
 > Lanzafame, R. and van Woudenberg, T. (2024) _Learn Programming for Engineers_. https://github.com/teachbooks/learn-programming
 
-```{note}
-We have not determined how to publish this book yet. Please contact teachbooks@tudelft.nl with questions.
-```
-
 The introduction, structure of the book and formatting of contents is done by the Editors, Robert Lanzafame and Tom van Woudenberg. Some chapters and pages have additional primary authors who are identified within the book either at the bottom of the first page in a chapter, or at the bottom of an individual page, as necessary. If an author is not listed on a particular page, it is Robert Lanzafame and Tom van Woudenberg.
 
 You can refer to individual chapters or pages within this book as:
