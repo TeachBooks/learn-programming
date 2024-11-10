@@ -16,6 +16,25 @@ parts:
       - file: environments/venv
         title: venv (Python)
     - file: version_control/version_control
+    - file: golden-rules/overview
+      title: Golden Rules
+      sections:
+      - file: golden-rules/pep8
+        title: PEP 8 Style Guide
+      - file: golden-rules/descriptive-names
+        title: "Rule 1: Descriptive Names"
+      - file: golden-rules/readable-code
+        title: "Rule 2: Readable Code"
+      - file: golden-rules/readable-results
+        title: "Rule 3: Readable Results"
+      - file: golden-rules/functions
+        title: "Rule 4: Functions"
+      - file: golden-rules/document-code
+        title: "Rule 5: Document Code"
+      - file: golden-rules/test-code
+        title: "Rule 6: Test Code"
+      - file: golden-rules/collaborate
+        title: "Rule 7: Collaborate"
   - caption: Installation
     chapters:
     - file: install/common
@@ -85,4 +104,5 @@ parts:
         - file: workflows/git/cli/git_the_rest
   - caption: Miscellaneous
     chapters:
+    - file: credits
     - file: references.md
