@@ -13,6 +13,8 @@ parts:
         title: conda (Anaconda/Miniconda)
       - file: environments/conda_old
         title: conda OLD
+      - file: environments/conda_old_2
+        title: conda OLD 2
       - file: environments/venv
         title: venv (Python)
     - file: version_control/version_control
