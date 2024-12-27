@@ -57,6 +57,7 @@ parts:
         title: Anaconda
       - file: install/python/direct
         title: Direct Installation
+      - file: python/oop/classes
     - file: install/ide
       title: Integrated Development Environments
       sections:
