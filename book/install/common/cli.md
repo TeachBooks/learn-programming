@@ -56,9 +56,13 @@ It is easy to work around this issue, however, for example:
 
 The tables below will give you commonly used commands on Mac and Windows OS's
 
+```{note}
+We've only included the Powershell commands here. However, the Windows Command Prompt (cmd) is also very easy to use. You can use the descriptors in the tables below to help with a web search, for example: _list directory contents windows command prompt._
+```
+
 % Isabel has tested all the Mac commands on MacBook Pro M1 - 3 September
 
-|  | Mac (UNIX Style commands)  | Windows (Command Prompt)     |
+|  | Mac (UNIX Style commands)  | Windows (Powershell)   |
 |--|----------|-------------|
 |    Present Working Directory  | `pwd`      | `pwd` |
 | List content of the present working directory | `ls`        |  `ls`   |
@@ -73,7 +77,7 @@ The tables below will give you commonly used commands on Mac and Windows OS's
 
 %below some simple CL to run python from terminal. Perhaps this can go to the python section
 **Python**
-|  | Mac (UNIX Style commands)  | Windows (Command Prompt)     |
+|  | Mac (UNIX Style commands)  | Windows (Powershell)     |
 |--|----------|-------------|
 |  Verifying and version  | `python3 --version` | `py -3 --version` |
 | Opening Python shell | `python3`    |  `py3`   |
