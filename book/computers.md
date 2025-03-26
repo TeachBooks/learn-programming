@@ -15,7 +15,7 @@ This can take on a variety of meanings, and of course modern computers are every
 
 A computer can be broken down into a number of components, for example: hardware, software and peripherals, as illustrated in the figure below.
 
-```{figure} computers/figures/typical.svg
+```{figure} https://files.mude.citg.tudelft.nl/typical.svg
 ---
 width: 95%
 name: computer_typical
@@ -30,7 +30,7 @@ The _system software_ includes the _operating system_ (OS) of a computer and the
 As far as this book is concerned, the _application software_ is where our true interest lies, as it is here where we will be writing programs to solve our problems of interest and collaborate with others. This is where our everyday software tools for scientific computing are categorized, for example, Python, VS Code, Matlab, our web browsers (e.g., Chrome) and much more software! As illustrated in the following figure, "we want to be" working at a relatively high level of application software (e.g., writing Python code to conduct analysis and make interesting visualizations) such that we don't have to worry about which OS we are working on. This is both to allow us to focus on our work, as well as collaborate others.
 
 
-```{figure} computers/figures/apps.svg
+```{figure} https://files.mude.citg.tudelft.nl/apps.svg
 ---
 width: 80%
 name: computer_applications

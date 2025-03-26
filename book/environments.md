@@ -13,7 +13,7 @@ If the concept of an _environment_ facilitates the running of code, an _environm
 
 The purpose of environments and environment managers is to allow an arbitrary software project to be used on an arbitrary computer, regardless of operating system (although one should note that some OS-specific software is required, for example the environment manager itself). This is illustrated schematically in the following figure.
 
-```{figure} environments/figures/simple.svg
+```{figure} https://files.mude.citg.tudelft.nl/simple.svg
 ---
 width: 80%
 name: environments_simple
@@ -48,7 +48,7 @@ dependencies:
 
 Environments and environment managers make it very easy to share projects between collaborators without the need to make computer-specific versions that are compatible with a wide variety of hardware and operating systems. This is illustrated schematically in the following figure, where multiple environment managers can be used to run projects on different computers. Depending on the requirements of a project or computer, a wide number of environment managers could be considered by the user.
 
-```{figure} environments/figures/complex.svg
+```{figure} https://files.mude.citg.tudelft.nl/complex.svg
 ---
 width: 80%
 name: environments_complex

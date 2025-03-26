@@ -10,7 +10,7 @@ Your computer has _environment variables_ which define the behavior of your oper
 ````{tip}
 Keep in mind that the Windows OS allows you to set environment variables for a specific _user_ as well as for the _system_ (all users). It is important to note which environment variable you should set for a given activity, as choosing the wrong one can have unintended consequences (or lead to much frustration!). The difference can be seen in the example here:
 
-```{figure} figures/environment_var_system_user.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_system_user.png
 ---
 width: 60%
 name: environment_var_system_user
@@ -61,7 +61,7 @@ Note also that depending on your system settings, or if you are copying the path
 
 The easiest way to find the appropriate setting window is by typing the first letters of "environment" in the Windows toolbar. The first three letters are usually enough to cause several relevant options to appear; select _Edit environment variables for your account_ and see the figure below for an illustration:
 
-```{figure} figures/environment_var_search.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_search.png
 ---
 width: 60%
 name: environment_var_search
@@ -73,7 +73,7 @@ As a general rule you should only adjust the `PATH` variable for the _user_, **n
 
 To set the right variable, pay particular attention to the descriptions provided in the environment variable window, as it is easy to miss; the right location is illustrated clearly in the following figure:
 
-```{figure} figures/environment_var_miniconda_not_system.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_miniconda_not_system.png
 ---
 width: 60%
 name: environment_var_miniconda_not_system
@@ -83,7 +83,7 @@ Unless specified otherwise, don't set an environment variable for the _system_, 
 
 Once you have identified the proper (user) window, look for the `PATH` variable, select it, then click the "Edit..." button. If the variable value is empty, you will probably see a window similar to that in the following figure; enter (paste) the path of the folder (directory) you wish to add to the path in the field "Variable value" then click "OK." Note that you can browse for the file and folder of interest via the settings window if you did not already copy the path via the File Explorer or a CLI. 
 
-```{figure} figures/environment_var_miniconda.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_miniconda.png
 ---
 width: 60%
 name: environment_var_miniconda
@@ -93,7 +93,7 @@ How to add a folder (directory) location to the `PATH` variable. The example her
 
 If there are already values set for the `PATH` variable then the "Edit..." button will probably show a window like that in the following figure. In this case, you can add a new path via the "New" button; paste the path in an open row of the list. Note that you can browse for the file and folder of interest via the settings window if you did not already copy the path via the File Explorer or a CLI. 
 
-```{figure} figures/environment_var_PATH_examples.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_PATH_examples.png
 ---
 width: 60%
 name: environment_var_PATH_examples
@@ -103,7 +103,7 @@ Example showing folders (directories) that have already been added to the `PATH`
 
 The following figure illustrates exactly where you should paste your desired folder (directory) path after clicking the "New" button:
 
-```{figure} figures/environment_var_PATH_new.png
+```{figure} https://files.mude.citg.tudelft.nl/environment_var_PATH_new.png
 ---
 width: 60%
 name: environment_var_PATH_new

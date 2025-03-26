@@ -19,7 +19,7 @@ If this doesn't work, try a Google search for "Finding hidden files on a Mac" an
 
 Settings for hidden files and folders can be found directly via the Windows File Explorer. First find the "options" or "settings" configuration window (sometimes pressing the `ALT` button toggles the menubar on and off): 
 
-```{figure} figures/hidden_windows_1.png
+```{figure} https://files.mude.citg.tudelft.nl/hidden_windows_1.png
 ---
 width: 60%
 name: hidden_windows_1
@@ -29,7 +29,7 @@ Find the options window for your directory (Windows).
 
 Then navigate to the proper location in the "View" tab of the Folder Options window:
 
-```{figure} figures/hidden_windows_2.png
+```{figure} https://files.mude.citg.tudelft.nl/hidden_windows_2.png
 ---
 width: 60%
 name: hidden_windows_2

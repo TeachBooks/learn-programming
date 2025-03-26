@@ -33,7 +33,7 @@ del miniconda.exe
 Note that depending on your Windows settings `CTRL+V` does not always work; you may need to use the menu bar of the terminal window or right-click and select paste. In addition, the paste feature typically works one line at a time, therefore after the first line is executed (download) you may need to hit enter once or twice to complete the last lines, as they may not execute automatically.
 ```
 
-```{figure} figures/miniconda_install.png
+```{figure} https://files.mude.citg.tudelft.nl/miniconda_install.png
 ---
 height: 200px
 name: miniconda_install
@@ -110,7 +110,7 @@ Now that Miniconda is installed on your system, from now on we will use the Anac
 ````{tab-item} Windows OS
 
 Open the Windows tool bar and begin typing "Anaconda". You should soon see two options appear: "Anaconda Prompt" and "Anaconda PowerShell Prompt." There two versions are based on the two primary CLI's on Windows: Command Prompt and PowerShell. Unless you are an experienced PowerShell user, we recommend using the Command Prompt version: Anaconda Prompt (see figure below):
-```{figure} figures/anaconda_prompt_open_windows.png
+```{figure} https://files.mude.citg.tudelft.nl/anaconda_prompt_open_windows.png
 ---
 width: 60%
 name: anaconda_prompt_open_windows

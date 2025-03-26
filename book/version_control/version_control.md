@@ -13,7 +13,7 @@ While working on personal or university projects, without a doubt you have come 
 
 What you have been doing is called version control. Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your most recent version, as shown in figure {numref}`intro1`:
 
-```{figure} images/intro1.png
+```{figure} https://files.mude.citg.tudelft.nl/intro1.png
 ---
 height: 200px
 name: intro1
@@ -23,7 +23,7 @@ Consecutive file changes
 
 Once you think of changes as separate from the document itself, you can then think about "playing back" different sets of changes on the base document, resulting in different versions of that document. For example, two users can make independent sets of changes on the same document, resulting in 2 independent versions ({numref}`intro2`).
 
-```{figure} images/intro2.png
+```{figure} https://files.mude.citg.tudelft.nl/intro2.png
 ---
 height: 200px
 name: intro2
@@ -33,7 +33,7 @@ Parallel file changes
 
 Unless multiple users make changes to the same section of the document - a conflict - you can incorporate two sets of changes into the same base document ({numref}`intro3`).
 
-```{figure} images/intro3.png
+```{figure} https://files.mude.citg.tudelft.nl/intro3.png
 ---
 height: 200px
 name: intro3

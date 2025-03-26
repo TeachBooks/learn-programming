@@ -9,13 +9,13 @@ To fork a repository, follow these steps:
 1. Navigate to the repository you want to fork on GitHub.
 2. Click the "Fork" button at the top right of the repository page.
 
-![Forking a repository](./images/fork1.png)
+![Forking a repository](https://files.mude.citg.tudelft.nl/fork1.png)
 
 This will create a copy of the repository under your GitHub account.
 
 3. Add the repo under your own account:
 
-![Forking a repository](./images/fork1-2.png)
+![Forking a repository](https://files.mude.citg.tudelft.nl/fork1-2.png)
 
 If you want, you can now clone this forked repository to your local machine and make changes as you would with any other repository.
 
@@ -28,11 +28,11 @@ Once you have made changes to your forked repository, you can contribute back to
 3. Create a new pull request
 
 
-![Forking a repository](./images/contribute.png)
+![Forking a repository](https://files.mude.citg.tudelft.nl/contribute.png)
 
 3. Select the branch of the original repository to the original repository to which you want to contribute back
 
-![Creating a pull request](./images/fork2.png)
+![Creating a pull request](https://files.mude.citg.tudelft.nl/fork2.png)
 
 4. Select the branch from your forked repository that contains your changes.
 5. Provide a title and description for your pull request, then click "Create pull request".

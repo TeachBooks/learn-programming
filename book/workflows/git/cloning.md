@@ -6,7 +6,7 @@ This page will show you how to use Source Control in VS Code to **clone** a repo
 
 Upon opening VS Code, we see that the first thing that is needed is to clone a repository ({numref}`clone1_VSC`). First, we have to get the address from our GitHub account.
 
-```{figure} images/clone1.png
+```{figure} https://files.mude.citg.tudelft.nl/clone1.png
 ---
 width: 80%
 name: clone1_VSC
@@ -16,7 +16,7 @@ Opening the VS Code Source Control tab for the first time--we need to clone a re
 
 Visit the repository you would like to clone to your computer on GitHub. As illustrated in {numref}`clone2_VSC`, you can see a bright green button "Clone" on the home page of the repository.
 
-```{figure} images/clone2.png
+```{figure} https://files.mude.citg.tudelft.nl/clone2.png
 ---
 width: 80%
 name: clone2_VSC
@@ -28,7 +28,7 @@ Home page of the repository in GitHub; note the "Clone" button.
 
 To clone the repository, we need the address--its location on the internet. There are several ways to do this, but the most secure is using SSH. As illustrated in {numref}`clone3_VSC`, under "Clone with SSH," click the icon to copy the URL to your clipboard, then go back to VS Code.
 
-```{figure} images/clone3.png
+```{figure} https://files.mude.citg.tudelft.nl/clone3.png
 ---
 width: 40%
 name: clone3_VSC
@@ -41,7 +41,7 @@ Copy SSH address of repository to your clipboard.
 
 Now you are ready to click the "Clone Repository" option in the Source Control tab of VS Code ({numref}`clone1`). Paste the address you copied from GitHub into the top bar and press 'enter' (as shown in {numref}`clone4_VSC`). Then select the folder or location on your local machine where you would like the _local repository_ to be stored ({numref}`clone5_VSC`).
 
-```{figure} images/clone4.png
+```{figure} https://files.mude.citg.tudelft.nl/clone4.png
 ---
 width: 80%
 name: clone4_VSC
@@ -49,7 +49,7 @@ name: clone4_VSC
 Enter the URL from GitHub and press 'enter'.
 ```
 
-```{figure} images/clone5.png
+```{figure} https://files.mude.citg.tudelft.nl/clone5.png
 ---
 width: 80%
 name: clone5_VSC
@@ -85,7 +85,7 @@ At this point you can create the local repository by clicking "Select Repository
 `````{note}
 If you were not successful in creating an SSH key and linking it to your GitHub account, this is when you will find out, as a message like this will appear:
 
-```{figure} images/clone6.png
+```{figure} https://files.mude.citg.tudelft.nl/clone6.png
 ---
 width: 80%
 name: clone6_VSC
@@ -98,7 +98,7 @@ If this happens, go back to the [SSH setup instructions](../../install/git/intro
 
 If you were successful in cloning the repository, you will see something similar to {numref}`clone7` and you can choose to open your _local repository_. Now we are ready to work on the files and preserve the changes by making our first local **commit**!
 
-```{figure} images/clone7.png
+```{figure} https://files.mude.citg.tudelft.nl/clone7.png
 ---
 width: 80%
 name: clone7_VSC

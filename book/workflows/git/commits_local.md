@@ -6,7 +6,7 @@ Now that we have learned how to clone a repository, we will find out how to make
 
 We begin by identifying the repository on which we would like to work, in this case `sandbox-public`; the starting condition is visible in {numref}`commit1_VSC` after cloning and opening your repository (see previous page). We can see that it began as a completely empty repository, except for the default README.md file that GitHub creates automatically.
 
-```{figure} images/commit1.png
+```{figure} https://files.mude.citg.tudelft.nl/commit1.png
 ---
 width: 80%
 name: commit1_VSC
@@ -18,7 +18,7 @@ Starting position after cloning GitHub repository and opening it in VS Code.
 
 Now that our repository is cloned, we are ready to get to work! First we will make a change to `README.md` in VS Code. As shown in {numref}`commit1_VSC`, we have removed the title and added some relevant text. Save the changes to the file then click the Source Control tab.
 
-```{figure} images/commit2.png
+```{figure} https://files.mude.citg.tudelft.nl/commit2.png
 ---
 width: 80%
 name: commit2_VSC
@@ -34,7 +34,7 @@ Once the changes have been saved, open the Source Control view in VS Code. You w
 
 If we click on the README under Changes we can see in {numref}`commit3_VSC`, git has now registered the changes in our file. git uses a few text symbols to identify and describe the changes, for example, a `+` and `-`. VS Code highlights the changed lines in green and red, making it very obvious what happened.
 
-```{figure} images/commit3.png
+```{figure} https://files.mude.citg.tudelft.nl/commit3.png
 ---
 width: 80%
 name: commit3_VSC
@@ -53,7 +53,7 @@ A local commit can record changes made to more than one file at once--we are onl
 
 Because the change to our `README.md` was so large, it was difficult to see all the changes. Let's try making another one. Using the change summary in {numref}`commit4_VSC`, can you tell what happened to the file?
 
-```{figure} images/commit4.png
+```{figure} https://files.mude.citg.tudelft.nl/commit4.png
 ---
 width: 80%
 name: commit4_VSC
@@ -66,7 +66,7 @@ A small change to `README.md`.
 
 All we did was add the `.md` to the end of `README`.
 
-```{figure} images/commit5.png
+```{figure} https://files.mude.citg.tudelft.nl/commit5.png
 ---
 width: 60%
 name: commit5_VSC
@@ -80,7 +80,7 @@ The small change to `README.md` revealed.
 
 Now that we have recorded our commits with git, there is one last thing to do: update the _remote repository._ We can do this by **pushing** the commit, using the blue "Sync Changes" button shown in {numref}`commit6_VSC`.
 
-```{figure} images/commit6.png
+```{figure} https://files.mude.citg.tudelft.nl/commit6.png
 ---
 width: 80%
 name: commit6_VSC
@@ -96,7 +96,7 @@ Origin is the name git uses to identify the original _remote repository_ where o
 
 Now that we have pushed to origin, it is easy to confirm that things worked. First, we can see that in VS Code Source Control once again shows no changes, as in {numref}`commit7_VSC`.
 
-```{figure} images/commit7.png
+```{figure} https://files.mude.citg.tudelft.nl/commit7.png
 ---
 width: 80%
 name: commit7_VSC
@@ -106,7 +106,7 @@ View of VS Code Source Control with no local changes.
 
 In addition, we can check the remote repository directly. Visiting the [home page of the repository](https://github.com/monadevos/sandbox-public/tree/main) is the best way to check the current status. {numref}`commit8_VSC` illustrates how this paged looked just after we pushed our commit to origin. As you can see the screenshot was made very soon afterwards (the "now" message), the commit message is visible, and we can see the actual change in in the text of `README.md`.
 
-```{figure} images/commit8.png
+```{figure} https://files.mude.citg.tudelft.nl/commit8.png
 ---
 width: 100%
 name: commit8_VSC
