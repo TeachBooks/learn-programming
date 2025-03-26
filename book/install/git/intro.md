@@ -108,7 +108,7 @@ You can also refer to the [GitHub Documentation](https://docs.github.com/en/auth
 
     At this point, your screen should look like this:
 
-    ```{figure} figures/add_key.png
+    ```{figure} https://files.mude.citg.tudelft.nl/add_key.png
     ---
     width: 100%
     name: add_key
