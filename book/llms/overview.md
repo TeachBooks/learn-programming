@@ -2,7 +2,7 @@
 
 This section covers how to use Large Language Models (LLMs) as AI coding assistants, which can significantly enhance your programming experience.  
 
-The workshop is structured as follows:
+The part is structured as follows:
 1. {ref}`How  to set up your AI-assistant <llms-setup-guide>`
 2. {ref}`Effective Prompting with LLMs <llms-effective-prompting>`
 3. {ref}`Generating Code with LLMs <llms-generating-code>`
