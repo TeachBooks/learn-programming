@@ -64,7 +64,7 @@ Another popular environment manager is Python itself, via it's own virtual envir
 
 ### Choosing an Environment Manager
 
-If you are a student, chances are the choice of environment manager has already been made for you. If not, you have a choice to make!
+If you are a student, chances are the choice of environment manager has already been made for you. At TU Delft conda is used for creating a consistent python environment on TU Delft computers. Therefore, in many courses this same environment is used.
 
 The use of Python virtual environments (`venv`) should be seen as an alternative to `conda` (especially if you installed Anaconda or Miniconda). If you are working primarily with Python packages available on `conda-forge` or PyPI, a `conda` environments will most likely work the same (and can also be easily selected from within VS Code). However, Python virtual environments (`venv`) can be created much more quickly than `conda` environments, and may enable you to manage your Python packages more efficiently in future projects.
 
@@ -72,8 +72,6 @@ However, note that `conda` comes with its own set of advantages, for example, in
 
 ## Environment Variables
 
-Modern computers have _environment variables_, which are used to define the behavior of your operating system (which is itself a type of computing environment). These variables are generally not important for most applications covered in this book, as we will focus on computing environments that are more distant from the operating system (for example, a Python environment; not the operating system directly). However, _in particular for users with a Windows operating system,_ it is often needed to change the `PATH` environment variable to make sure various software can be used via a CLI.
-
-Instructions for changing your `PATH` variable on Windows can be found via {ref}`this link <env-vars-windows>`.
+Modern computers have _environment variables_, which are used to define the behavior of your operating system (which is itself a type of computing environment). These variables are generally not important for most applications covered in this book, as we will focus on computing environments that are more distant from the operating system (for example, a Python environment; not the operating system directly).
 
 Feel free to visit the [wikipedia page](https://en.wikipedia.org/wiki/Environment_variable) for additional explanation or examples.
