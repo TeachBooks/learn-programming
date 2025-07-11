@@ -44,4 +44,4 @@ Of course, there are times when we still need to be conscious of which OS we are
 
 Our goal is to write programs on our computer that can function on a wide variety of computers, primarily via relatively high level _application software_. In theory, this is simple: for example, we write code in Python and share it with others. Unfortunately the real world is more complex than that. There is huge variation amongst different computers, and it is not trivial to ensure that a piece of software produces the same results on all computers, let alone being able to run on various operating systems or intermediate application software.
 
-Fortunately, there is a solution: _computing environments,_ described in another section of this book.
+Fortunately, there is a solution: _computing environments,_ described in the next section of this book.
