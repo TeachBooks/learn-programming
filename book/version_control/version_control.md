@@ -56,7 +56,7 @@ Note that in Windows if you are using Notepad (the default), you will want to se
 
 ## A different way of thinking?
 
-As you will see in the other chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive, Dropbox or even [Visual Studio Code Share](../install/ide/vsc.md). All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to computer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
+As you will see in the other chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive, Dropbox or even Visual Studio Code Share. All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to computer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
 
 `````{admonition} Tip
 :class: tip
@@ -65,38 +65,24 @@ To use version control (git) effectively, different versions of files are tracke
 **Avoid copying and renaming files as much as possible!**
 `````
 
-## git and GitLab
+## git and GitHub
 
 **What is git?**
 
 [Git](https://git-scm.com/) is a version control system (VCS), used by a wide variety of engineers and software developers to work on projects in parallel together. It provides multiple benefits such as tracking changes to files, working side by side with other people, and the ability to rollback to previous versions of files without losing track of newer changes. It is a free and open sources software.
 
-Note that while git is free and can be used on a variety of operating systems, there are many 3rd party softwares that _use_ git directly, or are heavily dependent on git. For example, GitLab and GitHub are two companies that provide cloud-based servers for hosting git repositories, as well as additional features like user groups, discussion channels, and even hosting of websites
-
-**What is GitLab?**
-
-GitLab is a cloud-based version control system built around git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers---this means that all of the files are stored digitally on the TU Delft campus. This is also why TU Delft has their our "own" GitLab located at `gitlab.tudelft.nl`, rather than the "normal" GitLab at `gitlab.com`, and is also something you will have access to throughout your studies.
-
-**What is GitHub?**
-
-GitHub is a competitor company to GitLab. It provides very similar services, but they are often called different names, or have slightly different features. Although we will not be using it directly, GitHub provides a free software that is very useful: **GitHub Desktop**! This software allows you to interact in a nice graphical interface with the version control of your files. An alternative is the [Git functionality in VS Code](../workflows/git/intro.md)
-
+Note that while git is free and can be used on a variety of operating systems, there are many 3rd party softwares that _use_ git directly, or are heavily dependent on git. For example, GitHub is a company that provide cloud-based servers for hosting git repositories, as well as additional features like user groups, discussion channels, and even hosting of websites. Furthermore, GitHub provides a free software that is very useful: **GitHub Desktop**! This software allows you to interact in a nice graphical interface with the version control of your files.
 
 ## Main concepts and terminology
 
 Here we present a list of the terminology we may use when referring to version control systems (VCS). Do not panic if you do not understand what each of the following means. Later, we will provide a more elaborate explanation with examples. Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
 
-1. **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
-1. **Remote (of repository):** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the Gitlab repository as a *remote*.
-1. **Commit:** Snapshot of the current state of the project. If a commit contains changes to multiple files, all the changes are recorded together.
-1. **Staging:** preparation of files to be committed. During the staging we propose files to be committed.
-2. **Snapshot:** copy of the current version of the entire repository.
-3. **Cloning:** copying (downloading) an existing project on your laptop. Usually, it is done only during the first time of getting the remote repository.
-4. **Tracked (files):** files that Git knows about -- they are either in the staging area or were previously added to the repository.
-5. **Untracked (files):** files that Git does not know about -- they are likely new files that have not been staged yet.
-6. **Pushing:** uploading new commits (changes) to the remote server.
-7. **Pulling:** retrieving new commits from the remote repository.
-8. **Fetching:** check for new changes on the remote repository without pulling them yet.
-9. **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. _Helping users resolve those conflicts is one of the key advantages of VCS._
-10. **Branch:** development (time) line. The main development line is called `main`.
-11. **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
+- **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
+- **Remote (of repository):** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the GitHub repository as a *remote*.
+- **Commit:** Snapshot of the current state of the project. If a commit contains changes to multiple files, all the changes are recorded together.
+- **Cloning:** copying (downloading) an existing project on your laptop. Usually, it is done only during the first time of getting the remote repository.
+- **Pushing:** uploading new commits (changes) to the remote server.
+- **Pulling:** retrieving new commits from the remote repository.
+- **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. _Helping users resolve those conflicts is one of the key advantages of VCS._
+- **Branch:** development (time) line. The main development line is called `main`.
+-. **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
