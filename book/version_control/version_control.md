@@ -76,4 +76,4 @@ Here we present a list of the terminology we may use when referring to version c
 - **Pulling:** retrieving new commits from the remote repository.
 - **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. _Helping users resolve those conflicts is one of the key advantages of VCS._
 - **Branch:** development (time) line. The main development line is often called `main`.
--. **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
+- **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
