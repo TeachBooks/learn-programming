@@ -74,7 +74,7 @@ Here we present a list of the terminology we may use when referring to version c
 - **Cloning:** copying (downloading) an existing project on your laptop including the full history and link with the remote repository. Usually, it is done only during the first time of getting the remote repository.
 - **Pushing:** uploading new commits (changes) to the remote repository.
 - **Fetching:** checking for new changes on the remote repository with respect to your cloned repository.
-- **Pulling:** retrieving new commits from the remote repository.
+- **Pulling:** retrieving new commits from the remote repository. To prevent issues, always fetch and pull from the remote repository before starting a work session on your computer.
 - **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. Helping users resolve those conflicts is one of the key advantages of VCS.
 - **Branch:** development (time) line. The main development line is often called `main`.
 - **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
