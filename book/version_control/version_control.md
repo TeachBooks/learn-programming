@@ -50,20 +50,11 @@ Version control systems oriented towards software development and programming ar
 
 ```{admonition} Try it!
 Try exploring a few files on your computer to confirm wether they are text-based or binary by opening them up in a text editor. You will easily be able to distinguish the difference because one is readable, the other not.
-
-Note that in Windows if you are using Notepad (the default), you will want to select  "Word Wrap" under the "Format" menu to fit the contents of very long lines within the visible width of the window.
 ```
 
 ## A different way of thinking?
 
 As you will see in the other chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive, Dropbox or even Visual Studio Code Share. All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to computer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
-
-`````{admonition} Tip
-:class: tip
-To use version control (git) effectively, different versions of files are tracked with _commits_, **not** by duplicating or renaming the file.
-
-**Avoid copying and renaming files as much as possible!**
-`````
 
 ## git and GitHub
 
@@ -75,14 +66,14 @@ Note that while git is free and can be used on a variety of operating systems, t
 
 ## Main concepts and terminology
 
-Here we present a list of the terminology we may use when referring to version control systems (VCS). Do not panic if you do not understand what each of the following means. Later, we will provide a more elaborate explanation with examples. Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
+Here we present a list of the terminology we may use when referring to version control systems (VCS). Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
 
 - **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
 - **Remote (of repository):** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the GitHub repository as a *remote*.
 - **Commit:** Snapshot of the current state of the project. If a commit contains changes to multiple files, all the changes are recorded together.
-- **Cloning:** copying (downloading) an existing project on your laptop. Usually, it is done only during the first time of getting the remote repository.
+- **Cloning:** copying (downloading) an existing project on your laptop including the full history and link with the remote repository. Usually, it is done only during the first time of getting the remote repository.
 - **Pushing:** uploading new commits (changes) to the remote server.
 - **Pulling:** retrieving new commits from the remote repository.
 - **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. _Helping users resolve those conflicts is one of the key advantages of VCS._
-- **Branch:** development (time) line. The main development line is called `main`.
+- **Branch:** development (time) line. The main development line is often called `main`.
 -. **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
