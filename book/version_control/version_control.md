@@ -58,15 +58,13 @@ As you will see in the other chapters on git, when applied to code, version cont
 
 ## git and GitHub
 
-**What is git?**
-
 [Git](https://git-scm.com/) is a version control system (VCS), used by a wide variety of engineers and software developers to work on projects in parallel together. It provides multiple benefits such as tracking changes to files, working side by side with other people, and the ability to rollback to previous versions of files without losing track of newer changes. It is a free and open sources software.
 
 Note that while git is free and can be used on a variety of operating systems, there are many 3rd party softwares that _use_ git directly, or are heavily dependent on git. For example, GitHub is a company that provide cloud-based servers for hosting git repositories, as well as additional features like user groups, discussion channels, and even hosting of websites. Furthermore, GitHub provides a free software that is very useful: **GitHub Desktop**! This software allows you to interact in a nice graphical interface with the version control of your files.
 
 ## Main concepts and terminology
 
-Here we present a list of the terminology we may use when referring to version control systems (VCS). Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
+Here we present a list of the terminology we may use when referring to version control systems (VCS). Bear in mind that the list below is not exhaustive, and more terms may show up.
 
 - **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
 - **Remote repository:** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the GitHub repository as the *origin*, which could be one of multiple *remotes*.
