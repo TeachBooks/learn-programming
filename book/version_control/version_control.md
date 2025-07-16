@@ -69,11 +69,13 @@ Note that while git is free and can be used on a variety of operating systems, t
 Here we present a list of the terminology we may use when referring to version control systems (VCS). Bear in mind that the list below is not exhaustive, and more terms may show up. Also, if you only do the GUI option, you might not encounter some of them.
 
 - **Repository:** storage, where VCS (git, in our case) store their history of changes and information about who made them.
-- **Remote (of repository):** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the GitHub repository as a *remote*.
+- **Remote repository:** a version control repository stored somewhere else and the changes between the two are usually synchronized. We will refer to the GitHub repository as the *origin*, which could be one of multiple *remotes*.
 - **Commit:** Snapshot of the current state of the project. If a commit contains changes to multiple files, all the changes are recorded together.
 - **Cloning:** copying (downloading) an existing project on your laptop including the full history and link with the remote repository. Usually, it is done only during the first time of getting the remote repository.
-- **Pushing:** uploading new commits (changes) to the remote server.
+- **Pushing:** uploading new commits (changes) to the remote repository.
+- **Fetching:** checking for new changes on the remote repository with respect to your cloned repository.
 - **Pulling:** retrieving new commits from the remote repository.
-- **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. _Helping users resolve those conflicts is one of the key advantages of VCS._
+- **Conflict:** when changes made by multiple users to the same file are incompatible, you can get into a conflict. Helping users resolve those conflicts is one of the key advantages of VCS.
 - **Branch:** development (time) line. The main development line is often called `main`.
 - **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
+- **Fork:** a separate version of someone else's repository on your own GitHub account. You could see this as a branch you own yourself instead of the original owner of the repository. The original repository is generally called *upstream*, which could be added as an additional *remote* to a local repository.
