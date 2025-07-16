@@ -18,6 +18,8 @@ parts:
       - file: environments/venv
         title: venv (Python)
     - file: version_control/version_control
+      sections:
+      - file: version_control/notebooks
     - file: golden-rules/overview
       title: Golden Rules
       sections:
