@@ -77,3 +77,4 @@ Here we present a list of the terminology we may use when referring to version c
 - **Branch:** development (time) line. The main development line is often called `main`.
 - **Merge:** combining the commits of two branches, for example, changes on a development branch are merged into the `main` branch.
 - **Fork:** a separate version of someone else's repository on your own GitHub account. You could see this as a branch you own yourself instead of the original owner of the repository. The original repository is generally called *upstream*, which could be added as an additional *remote* to a local repository.
+- **Pull request:** proposal on github to merge a branch or fork into another one. This proposal provides a space for feedback.

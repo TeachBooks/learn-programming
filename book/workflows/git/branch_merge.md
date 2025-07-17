@@ -1,8 +1,6 @@
 # Branching and merging
 
-## What are branches
-
-So far, we have only been making commits using the `main` or `master` branch, however, in practice, you will work on a separate branch, whose progress you will later merge with `main`.
+So far, we have only been making commits using the `main` branch, however, in practice, you will work on a separate branch, whose progress you will later merge with `main`.
 
 Commits in git have a graph structure, where every node is a commit and edges represent the transition (flow) between commits. Branches can be thought of as pointers to commits, whereas HEAD points to the current commit that we are at. When you switch between branches, you can think of HEAD as the most recent commit on that branch.
 
@@ -14,68 +12,11 @@ The main advantage of version control is that it allows developers to work toget
 
 ![Commit graph of a sample repository](https://files.mude.citg.tudelft.nl/branch2.png)
 
-## Creating a branch
+In the commit graph above you see two branches (`Main` and `Dev Branch`). The orange commits `q1` and `q2` were part of a branch but that branch is merged with `main`. The `HEAD` is at `m2`, so if you're looking at the files in repository, you see the stated of all the files after that commit. E.g. the changes from `a1`, `m3` and `q2` (and all others not in front of `m2`) are not visible. So it's not only possible to change branch, but also to go back in time with `Head`!
 
-First, let us check on what branch we are currently at. On GitHub, navigate to your repository and click on the "Branch: main" dropdown to see the list of branches. The branch with a checkmark is your current branch.
+The `Dev branch` was created from the state of the `Main` branch at `m1` and after two commits `a1` and `a2`, the changes from `m2` have been merged into that branch in commit `a3`.
 
-![Check existing branches](https://files.mude.citg.tudelft.nl/branch3.png)
-
-Let us create a new branch from `main` on GitHub, which we will call `first-branch`. Click on the "Branch: main" dropdown, type `first-branch` in the text box, and click "Create branch: first-branch from main".
-
-We can move to the newly created branch by selecting it from the branch dropdown.
-
-![Moving to branch `first-branch`](https://files.mude.citg.tudelft.nl/branch4.png)
-
-Let us modify our `README.md` file again and add a sentence to the first line of it. Navigate to the `README.md` file, click the pencil icon to edit it, and add your content to the first line:
-
-```
-Now I've edited this file on the `first-branch`-branch.
-```
-
-We will commit the new changes by filling out the commit message and clicking "Commit changes".
-
-![Committing new changes](https://files.mude.citg.tudelft.nl/branch5.png)
-
-## Merging branches / pull requests
-
-Note that when we switch to `main`, the `README.md` file does not contain the changes we made on the other branch.
-
-Before merging our progress from `first-branch`, it is advisable to merge `main` into it first. This is done because we regard the `main` branch as the "face" of our project. When somebody is looking at our repository, they are likely to check the things on `main` first. Moreover, if there are any bugs from merging, it is better to resolve them on our separate branch. Sometimes it happens that after merging your progress to the `main` branch, the code on the `main` branch is no longer working correctly.
-
-Therefore, we will first go back to our branch `main`. Note that the edit we made is no longer visible. Let's add a commit here too to `README.md` at the last line:
-
-```
-And now I've edited this file on the `main`-branch.
-```
-
-We can merge the `main` branch into `first-branch` by creating a pull request. On GitHub, go to the "Pull requests" tab, click "New pull request", select `first-branch` as the base branch and `main` as the compare branch, and click "Create pull request". We can check (as shown below) that there are no conflicts and then we click "Merge pull request" to merge `main` into `first-branch`. 
-
-![Pull request](https://files.mude.citg.tudelft.nl/branch6.png)
-
-We can now inspect the README.md again with the new changes. The progress of the other branch (`main`) has been moved to `first-branch` as seen below.
-
-![New commits graph](https://files.mude.citg.tudelft.nl/branch7.png)
-
-We will now return to `main` and merge `first-branch` into it with another pull request. Follow the same steps as before, but this time select `first-branch` as the compare branch and `main` as the base branch.
-
-![Merging `first-branch` into `main`](https://files.mude.citg.tudelft.nl/branch10.png)
-
-## Deleting branches
-
-Branch `first-branch` has lived its use, so we can delete it as we do not plan on making new changes to it. This will not remove any of the commits made on it. It will only remove the pointer itself. Do this from the pull request page by clicking "Delete branch".
-
-![Deleting a branch](https://files.mude.citg.tudelft.nl/branch12.png)
-
-## Branches locally
-
-All of the above operations can also be performed locally using a Git client like VS Code. Here are the basics:
-
-1. Check Current Branch: Open the source control panel in VS Code to see the current branch.
-2. Create a New Branch: Use the branch icon in the status bar or the command palette (`Ctrl+Shift+P`) and select `Git: Create Branch`.
-3. Switch Branches: Click on the branch name in the status bar and select the branch you want to switch to.
-4. Make Changes and Commit: Edit your files, then use the source control panel to stage and commit your changes.
-5. Merge Branches: Use the command palette to select `Git: Merge Branch` and choose the branch to merge from.
-6. Delete Branches: Use the command palette to select `Git: Delete Branch` and choose the branch to delete.
+The orange branch was created from the state of `Main` at `m3`, while after one commit `q1`, the changes from `Dev branch` were included into the orange branch with commit `q2`. After that, it is merged into `Main` at `m5`, effectively merging the `Dev branch` into `Main too`. After that merge, the pointer of the orange branch is deleted, so it's not trivial to go back to the orange branch. However, this can still be done by checking out `Head` to commit `q2`.
 
 ## Collaborating with branches
 
