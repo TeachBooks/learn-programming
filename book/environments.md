@@ -23,7 +23,7 @@ An environment manager ensures that an environment can be set up and used for a 
 
 In a more simple definition, an environment is simply a directory on your computer that contains the source code that has been selected by an environment manager to be compatible with the operating system and hardware on your computer, as well as the source code of the other packages in that same environment. The compatibility between these pieces of software is referred to as _dependency,_ and tools that identify the proper versions of software are called _dependency solvers._ One commonly used example is `conda`.
 
-### How to Create and Environment?
+### How to Create an Environment?
 
 In many applications it is sufficient to determine a specific version of Python (e.g., version 3.12) and a list of the software you would like to use, then as an environment manager to download compatible versions and set up an environment. In a simplified view, this is roughly equivalent to downloading source code and putting it in a directory on your computer.
 

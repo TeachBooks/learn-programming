@@ -25,7 +25,11 @@ Essential components of a typical computer. In particular, we are interested in 
 
 Although it is not the focus of this book, it is important to recognize the complexity in hardware, software and components that we often take for granted in modern computers (similar diagrams can be imagined for everyday devices like your cell phone). Of all these components, our work in scientific computing generally focuses on the software part of a computer, which can be broken down into two parts: the _system_ and _application software._
 
-The _system software_ includes the _operating system_ (OS) of a computer and the _drivers_ that allow the OS to be run on a particular set of hardware. Common examples are the Windows and Mac (Apple) OS's. ALthough the OS on your computer is critical to consider, as we will see later, our goal is to install a few tools (software) that are compatible with our OS/computer and will eventually enable us to ignore the specific OS that we are running, especially when collaborating with colleagues.
+## System Software
+
+The _system software_ includes the _operating system_ (OS) of a computer and the _drivers_ that allow the OS to be run on a particular set of hardware. Common examples are the Windows and Mac (Apple) OS's. Although the OS on your computer is critical to consider, as we will see later, our goal is to install a few tools (software) that are compatible with our OS/computer and will eventually enable us to ignore the specific OS that we are running, especially when collaborating with colleagues.
+
+## Application Software
 
 As far as this book is concerned, the _application software_ is where our true interest lies, as it is here where we will be writing programs to solve our problems of interest and collaborate with others. This is where our everyday software tools for scientific computing are categorized, for example, Python, VS Code, Matlab, our web browsers (e.g., Chrome) and much more software! As illustrated in the following figure, "we want to be" working at a relatively high level of application software (e.g., writing Python code to conduct analysis and make interesting visualizations) such that we don't have to worry about which OS we are working on. This is both to allow us to focus on our work, as well as collaborate others.
 
@@ -39,6 +43,10 @@ Relationship between the code we write, the OS-specific tools we need to install
 ```
 
 Of course, there are times when we still need to be conscious of which OS we are running, but this is less frequent, for example, when we are installing the proper version of `conda` or Python, as well as our IDE of choice (e.g., VS Code).
+
+### IDE: Integrated Development Environment
+
+IDE stands for _integrated development environment:_ it is a software that makes it easier to develop code and software, for example, by highlighting code syntax, or including command line interpreters to run the code. There are many IDE's to choose from, and what you end up using can depend on a variety of factors, for example: programming language, complexity of software used during development or simply personal preference. Common IDE’s for engineers and scientists include Matlab, Jupyter Lab, Spyder or Visual Studio Code (VS Code). If none of these software are familiar to you, don't worry: your instructors will help you choose an IDE for your programming needs. For now, all you need to know is that different IDE's is analagous to different web browsers (e.g., Chrome, Firefox, Edge, etc): they run on several different computer operating systems and are used for a very specific purpose. 
 
 ## Summary of Application Software Goals
 
