@@ -1,5 +1,5 @@
 (llms-effective-prompting)=
-# Effective Prompting
+# Effective prompting
 When interacting with an LLM about your code, the way you prompt the model can significantly impact the quality of its responses. We recommend using the integrated AI chat panel if present in your editor instead of external chatbot like ChatGPT. This allows the LLM to directly reference your project files and the broader code context.
 
 ```{tip}
