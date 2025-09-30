@@ -39,6 +39,21 @@ parts:
         title: "Rule 6: Test Code"
       - file: golden-rules/collaborate
         title: "Rule 7: Collaborate"
+    - file: llms/overview
+      title: Using LLMs
+      sections:
+      - file: llms/setup-guide
+        title: Setup Guide
+      - file: llms/effective-prompting
+        title: Effective Prompting
+      - file: llms/generating-code
+        title: Generating Code 
+      - file: llms/debugging-errors
+        title: Debugging Errors
+      - file: llms/human-in-the-loop
+        title: The Importance of Human-in-the-Loop 
+
+
   - caption: Installation
     chapters:
     - file: install/common
