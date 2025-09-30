@@ -54,13 +54,6 @@ Try exploring a few files on your computer to confirm wether they are text-based
 Note that in Windows if you are using Notepad (the default), you will want to select  "Word Wrap" under the "Format" menu to fit the contents of very long lines within the visible width of the window.
 ```
 
-### Jupyter Notebooks
-
-Jupyter notebooks, `ipynb`, are a special case because while the contents of your Markdown and code cells is saved as text in the file, the output of the code cells is sometimes a binary format. For example, if you create a plot using matplotlib and save the notebook, that plot output will be binary. This unfortunately makes it a little more difficult to use notebooks with VCS, but if we are aware of the issue, it is not a problem---we will show you how.
-
-If you tried opening up a notebook in the text editor you would have noticed a structure with curly braces, `{}`. This is [JSON-format](https://en.wikipedia.org/wiki/JSON)] (another file type), which the notebook uses to store information in each cell.
-
-
 ## A different way of thinking?
 
 As you will see in the other chapters on git, when applied to code, version control takes on a very different appearance than what you are used to with traditional backup software, for example, Microsoft Word auto-save, or cloud-based services like OneDrive, Dropbox or even [Visual Studio Code Share](../install/ide/vsc.md). All of these platforms are set up in a user-friendly way that is _focused on a single file._ This works fine when we are writing a report like a thesis. However, it does **not** work well when it comes to computer programs, because in addition to the files themselves, the _contents of the file_ become critical. As we will see, git is a version control software that allows us to compare and track changes in every character of text within a file, which is very useful when writing code, as well as working with a distributed team of collaborators.
