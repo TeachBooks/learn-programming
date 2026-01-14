@@ -6,11 +6,11 @@ Commits in git have a graph structure, where every node is a commit and edges re
 
 The graph below shows the commit history of a repo with two commits:
 
-![Commit graph of our repository](https://files.mude.citg.tudelft.nl/branch1.png)
+![Commit graph of our repository](https://github.com/TUDelft-MUDE/source-files/raw/main/file/branch1.png)
 
 The main advantage of version control is that it allows developers to work together in parallel. During projects, you will be working on "feature" branches and separating the work to review and merge it later. A common graphical structure of commits is shown below, where we have developers working on 3 separate branches and merging their work when necessary. This separation offers flexibility, parallelization of work, and offers more control over the development process.
 
-![Commit graph of a sample repository](https://files.mude.citg.tudelft.nl/branch2.png)
+![Commit graph of a sample repository](https://github.com/TUDelft-MUDE/source-files/raw/main/file/branch2.png)
 
 In the commit graph above you see two branches (`Main` and `Dev Branch`). The orange commits `q1` and `q2` were part of a branch but that branch is merged with `main`. The `HEAD` is at `m2`, so if you're looking at the files in repository, you see the stated of all the files after that commit. E.g. the changes from `a1`, `m3` and `q2` (and all others not in front of `m2`) are not visible. So it's not only possible to change branch, but also to go back in time with `Head`!
 

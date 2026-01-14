@@ -108,7 +108,7 @@ You can also refer to the [GitHub Documentation](https://docs.github.com/en/auth
 
     At this point, your screen should look like this:
 
-    ```{figure} https://files.mude.citg.tudelft.nl/add_key.png
+    ```{figure} https://github.com/TUDelft-MUDE/source-files/raw/main/file/add_key.png
     ---
     width: 100%
     name: add_key
@@ -144,7 +144,7 @@ git config --global user.email "k.v.vasilev-1@student.tudelft.nl"
 
 Console example in {numref}`setup1_2`:
 
-```{figure} https://files.mude.citg.tudelft.nl/setup1.png
+```{figure} https://github.com/TUDelft-MUDE/source-files/raw/main/file/setup1.png
 ---
 width: 100%
 name: setup1_2
