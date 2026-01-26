@@ -29,7 +29,9 @@ sphinx:
     html_last_updated_fmt: '%B %-d, %Y'
   extra_extensions:
     - sphinx.ext.imgconverter
-    - jupyterbook_patches
+    - teachbooks_favourites                          # Gives you a starter package of extensions to use in your open interactive learning material, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+    - sphinx_tudelft_theme                           # Add TU Delft theme: https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html
+    - sphinx_apa_references 
     - sphinx_inline_tabs
 
 bibtex_bibfiles: 
