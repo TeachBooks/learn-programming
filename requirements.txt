@@ -1,11 +1,10 @@
-# first list the packages you wish to download from PyPI
-teachbooks # depends on jupyter-book
 sphinx-inline-tabs
-jupyterbook-patches
-download_link_replacer
 standard-imghdr
 
-# docutils version for reference page formatting
-docutils==0.17.1
+# first list the packages you wish to download from PyPI
+teachbooks # depends on jupyter-book v1
 
-git+https://github.com/TeachBooks/Sphinx-Thebe
+# Our favourite Sphinx extensions in one line, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+git+https://github.com/TeachBooks/TeachBooks-Favourites
+sphinx-tudelft-theme
+sphinx-apa-references
