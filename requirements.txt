@@ -1,5 +1,4 @@
 sphinx-inline-tabs
-standard-imghdr
 
 # first list the packages you wish to download from PyPI
 teachbooks # depends on jupyter-book v1
