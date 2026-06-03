@@ -53,7 +53,7 @@ StartingFrom your C drive...at a location NOT on a cloud server!^
 Remember that your environment also includes a specific version of Python (in our case, 3.11); this means you may have _many_ versions of Python installed on the same computer. The secret to effectively using virtual environments is organizing the Python source code properly; note in the file system diagram above that we reserved a place parallel to the working directories for this: `python_releases`.
 
 First you will have to download a specific version of Python:
-- Visit the Python downloads page at [python.org/downloads](https://www.python.org/downloads/){:target="_blank"}
+- Visit the Python downloads page at [python.org/downloads](https://www.python.org/downloads/)
 - Choose Python 3.11
 - Download the appropriate file
   - "Windows installer (64-bit)" will be the proper choice for most of you). Note it's only 25 MB. Once installed (per the instructions below) it should be around 130 MB
